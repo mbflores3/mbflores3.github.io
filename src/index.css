@@ -21,7 +21,7 @@ All colors MUST be HSL.
     /* Red Accent */
     --primary: 0 75% 50%;
     --primary-foreground: 220 8% 12%;
-    --primary-glow: 0 75% 60%;
+    --primary-glow: 0 75% 65%;
 
     /* Light Secondary */
     --secondary: 220 10% 95%;
@@ -32,8 +32,8 @@ All colors MUST be HSL.
     --muted-foreground: 220 8% 40%;
     
     /* Electric Blue Primary */
-    --primary: 195 100% 40%;
-    --primary-foreground: 220 10% 98%;
+    --accent: 195 100% 40%;
+    --accent-foreground: 220 10% 98%;
 
     --destructive: 0 75% 50%;
     --destructive-foreground: 220 8% 12%;
@@ -85,8 +85,8 @@ All colors MUST be HSL.
     --muted-foreground: 210 10% 60%;
 
     /* Electric Blue Primary */
-    --primary: 195 100% 40%;
-    --primary-foreground: 220 10% 98%;
+    --accent: 195 100% 40%;
+    --accent-foreground: 220 10% 98%;
 
     --destructive: 0 85% 60%;
     --destructive-foreground: 210 15% 92%;
