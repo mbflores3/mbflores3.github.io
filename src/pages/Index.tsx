@@ -56,9 +56,6 @@ const Index = () => {
                 <AvatarFallback>YC</AvatarFallback>
               </Avatar>
             </div>
-            <div style={{ position: "fixed", top: 0, left: 0, zIndex: 99999, background: "yellow", padding: 8 }}>
-              CAMBIO TEST 123
-            </div>
             
             <div className="flex-1">
               <h1 className="text-4xl md:text-6xl font-bold mb-3 text-foreground">
