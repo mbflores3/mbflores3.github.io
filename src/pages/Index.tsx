@@ -61,19 +61,19 @@ const Index = () => {
               <h1 className="text-4xl md:text-6xl font-bold mb-3 text-foreground">
                 <span className="text-primary">$</span> whoami
               </h1>
-              <p className="text-xl text-primary font-semibold">Electrical Engineer & Software Developer</p>
+              <p className="text-xl text-primary font-semibold">Robotics Engineer</p>
             </div>
           </div>
           
           <div className="terminal-border bg-card/50 p-8 rounded mb-6">
             <p className="text-foreground leading-relaxed mb-4">
-              I'm an engineer passionate (and constantly learning!) about AI, software development, and solving real-world problems through technology. 
-              My background blends hardware and software, I started programming microcontrollers and working on IoT projects, 
-              and later shifted toward software, machine learning, NLP, and large language models.
+              I'm an engineer passionate about robotics and autonomous systems, particularly in developing technologies that enable machines to operate reliably in complex real-world environments.
+              My background spans both hardware and software: from embedded systems and electronics design to robotics navigation, perception, and machine learning.
+              I have had the opportunity to work on robotic platforms across aerial, underwater, and ground environments, which has allowed me to develop an integrated perspective on the multidisciplinary skills required to design and deploy complex autonomous systems.
             </p>
             
             <p className="text-muted-foreground leading-relaxed">
-              I truly enjoy solving problems and addressing real needs through programming, combining technical knowledge with creativity.
+              I truly enjoy solving problems and addressing real needs through hardware technical knowledge and coding.
               I'm dedicated, proactive, and always motivated to keep learning and contributing to new challenges where I can make a meaningful impact.
             </p>
           </div>
