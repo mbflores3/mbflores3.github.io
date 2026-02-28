@@ -39,16 +39,16 @@ All colors MUST be HSL.
     --destructive-foreground: 220 8% 12%;
 
     /* Borders with Terminal Vibe */
-    --border: 220 8% 85%;
+    --border: 0 8% 85%;
     --input: 220 8% 94%;
     --ring: 195 100% 40%;
 
     --radius: 0.25rem;
 
     /* Grid and Glow Effects */
-    --grid-color: 220 8% 92%;
-    --glow-primary: 0 75% 50%;
-    --glow-accent: 195 100% 45%;
+    --grid-color: 0 8% 92%;
+    --glow-primary: 195 100% 45%;
+    --glow-accent: 0 75% 50%;
 
     --sidebar-background: 220 8% 100%;
     --sidebar-foreground: 220 8% 12%;
@@ -100,8 +100,8 @@ All colors MUST be HSL.
 
     /* Grid and Glow Effects */
     --grid-color: 220 15% 12%;
-    --glow-primary: 0 85% 60%;
-    --glow-accent: 195 100% 60%;
+    --glow-primary: 195 100% 60%;
+    --glow-accent: 0 85% 60%;
 
     --sidebar-background: 220 18% 8%;
     --sidebar-foreground: 210 15% 92%;
