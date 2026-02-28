@@ -52,7 +52,7 @@ const Index = () => {
             {/* Profile Picture */}
             <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
               <Avatar className="w-full h-full terminal-border bg-card flex items-center justify-center glow-primary">
-                <AvatarImage image="/images/profile.png" alt="Profile picture" />
+                <AvatarImage src="/images/profile.png" alt="Profile picture" />
                 <AvatarFallback>YC</AvatarFallback>
               </Avatar>
             </div>
