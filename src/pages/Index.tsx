@@ -61,7 +61,7 @@ const Index = () => {
               <h1 className="text-4xl md:text-6xl font-bold mb-3 text-foreground">
                 <span className="text-primary">$</span> whoami
               </h1>
-              <p className="text-xl text-primary font-semibold">Robotics Engineer</p>
+              <p className="text-xl text-primary font-semibold">Robotics</p>
             </div>
           </div>
           
