@@ -67,9 +67,8 @@ const Index = () => {
           
           <div className="terminal-border bg-card/50 p-8 rounded mb-6">
             <p className="text-foreground leading-relaxed mb-4">
-              I'm an engineer passionate about robotics and autonomous systems, particularly in developing technologies that enable machines to operate reliably in complex real-world environments.
+              I'm an engineer passionate about robotics and autonomous systems, particularly in technologies that enable machines to operate in complex real-world environments.
               My background spans both hardware and software: from embedded systems and electronics design to robotics navigation, perception, and machine learning.
-              I have had the opportunity to work on robotic platforms across aerial, underwater, and ground environments, which has allowed me to develop an integrated perspective on the multidisciplinary skills required to design and deploy complex autonomous systems.
             </p>
             
             <p className="text-muted-foreground leading-relaxed">
