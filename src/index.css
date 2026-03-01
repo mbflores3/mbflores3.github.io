@@ -46,8 +46,8 @@ All colors MUST be HSL.
     --radius: 0.25rem;
 
     /* Grid and Glow Effects */
-    --grid-color: 0 8% 92%;
-    --glow-primary: 195 100% 45%;
+    --grid-color: 0 75% 65%;
+    --glow-primary: 0 75% 65%;
     --glow-accent: 0 75% 50%;
 
     --sidebar-background: 220 8% 100%;
