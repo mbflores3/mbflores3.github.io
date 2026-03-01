@@ -40,14 +40,14 @@ All colors MUST be HSL.
 
     /* Borders with Terminal Vibe */
     --border: 0 8% 85%;
-    --input: 220 8% 94%;
-    --ring: 195 100% 40%;
+    --input: 220 8% 12%;
+    --ring: 0 75% 50%;
 
     --radius: 0.25rem;
 
     /* Grid and Glow Effects */
-    --grid-color: 0 75% 65%;
-    --glow-primary: 0 75% 65%;
+    --grid-color: 220 8% 92%;
+    --glow-primary: 195 100% 45%;
     --glow-accent: 0 75% 50%;
 
     --sidebar-background: 220 8% 100%;
