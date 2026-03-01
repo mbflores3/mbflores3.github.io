@@ -179,7 +179,7 @@ const Index = () => {
                 Academic Certificate in International Relationships.
                 <br /><br />
                 The program consists of a 6-year curriculum: 4 years of bachelor-level engineering, followed by 2 years of advanced engineering courses and a final thesis.
-                This program is accredited by the United States agency, ABET.
+                This program is accredited by the United States Agency, ABET.
               </p>
             </div>
 
