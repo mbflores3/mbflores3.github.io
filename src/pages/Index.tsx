@@ -175,10 +175,10 @@ const Index = () => {
               </h3>
               <p className="text-muted-foreground mb-2">Pontifical Catholic University of Chile | 2018 - 2024</p>
               <p className="text-sm text-muted-foreground">
-                Major in Electrical Engineering, Minor in Electronics and Telecommunications. Graduated with maximum distinction.
+                Major in Robotics Engineering, Minor in Automation Systems Engineering, and an additional Academic Certificate in International Relationships.
                 <br /><br />
                 The program consists of a 6-year curriculum: 4 years of bachelor-level engineering, followed by 2 years of advanced engineering courses and a final thesis.
-                This program is usually considered equivalent to a Master of Engineering or Professional Degree.
+                This program is accredited by the United States agency, ABET..
               </p>
             </div>
 
@@ -455,7 +455,7 @@ const Index = () => {
             
             <div className="space-y-4">
               <a
-                href="mailto:catalina.sierra@alumni.uc.cl"
+                href="mailto:mbflores3@uc.cl"
                 className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
               >
                 <div className="p-3 bg-secondary rounded group-hover:bg-primary/20 transition-colors">
@@ -463,12 +463,12 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-sm text-muted-foreground">catalina.sierra@alumni.uc.cl</p>
+                  <p className="text-sm text-muted-foreground">mbflores3@uc.cl</p>
                 </div>
               </a>
               
               <a
-                href="https://github.com/csierr"
+                href="https://github.com/mbflores3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
@@ -478,12 +478,12 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="font-semibold">GitHub</p>
-                  <p className="text-sm text-muted-foreground">@csierr</p>
+                  <p className="text-sm text-muted-foreground">@mbflores3</p>
                 </div>
               </a>
               
               <a
-                href="https://www.linkedin.com/in/catalina-pia-sierra-simon-a06133233/"
+                href="https://www.linkedin.com/in/mario-flores-musso-6a3156235/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
@@ -493,7 +493,7 @@ const Index = () => {
                 </div>
                 <div>
                   <p className="font-semibold">LinkedIn</p>
-                  <p className="text-sm text-muted-foreground">Catalina Sierra</p>
+                  <p className="text-sm text-muted-foreground">Mario Flores Musso</p>
                 </div>
               </a>
             </div>
