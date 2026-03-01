@@ -47,13 +47,13 @@ All colors MUST be HSL.
 
     /* Grid and Glow Effects */
     --grid-color: 220 8% 92%;
-    --glow-primary: 195 100% 45%;
+    --glow-primary: 0 75% 50%;
     --glow-accent: 0 75% 50%;
 
     --sidebar-background: 220 8% 100%;
     --sidebar-foreground: 220 8% 12%;
-    --sidebar-primary: 195 100% 40%;
-    --sidebar-primary-foreground: 220 10% 98%;
+    --sidebar-primary: 0 75% 50%;
+    --sidebar-primary-foreground: 220 8% 12%;
     --sidebar-accent: 220 10% 96%;
     --sidebar-accent-foreground: 220 8% 12%;
     --sidebar-border: 220 8% 90%;
