@@ -148,6 +148,13 @@ const Index = () => {
               organization="Pontifical Catholic University of Chile"
               description="I conducted research on autonomous UAV precision landing at the Pontifical Catholic University of Chile (PUC) under the supervision of Prof. Giancarlo Troni as part of the RobotX 2022 initiative. The work focused on developing a computer-vision-based precision landing system using Python and ROS. I built and integrated a UAV platform, including airframe assembly, brushless DC motor and ESC integration, and flight controller configuration, enabling iterative flight testing and system bring-up. On the software side, I implemented a perception-driven landing pipeline in ROS that combined visual target detection and tracking with landing logic and interfaced these autonomy modules with the UAV control stack. This work strengthened my hardware–software integration capabilities through end-to-end development involving sensor and actuator integration, ROS messaging, and debugging of robotic communication and control loops during experimental testing."
             />
+
+            <TimelineItem
+              year="March 2018 - July 20219"
+              title="Undergraduate Researcher"
+              organization="University of Santiago of Chile"
+              description="I worked as a research assistant to Prof. Juan Francisco Fuentealba, contributing to experimental studies on fracture behavior in isotropic and anisotropic materials. My work involved designing and implementing controlled laboratory experiments to investigate crack propagation mechanisms. I built a dedicated test bench for soft-glass fracture experiments, enabling repeatable testing conditions and precise observation of fracture dynamics. Through these experiments, I analyzed fracture paths to infer the minimum-energy trajectories governing crack propagation, gaining experience in experimental design, mechanical testing, and the physical modeling of material failure processes."
+            />
           </div>
         </section>
 
