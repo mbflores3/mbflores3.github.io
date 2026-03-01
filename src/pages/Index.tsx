@@ -101,31 +101,31 @@ const Index = () => {
           
           <div className="space-y-0">
             <TimelineItem
-              year="May 2025 - Present"
-              title="AI Engineer"
-              organization="ClickIT DevOps and Software Development"
+              year="March 2025 - Present"
+              title="Robotics Autonomy Project Engineer"
+              organization="Enaex S.A."
               description="Backend development and integration of artificial intelligence into software pipelines. Collaboration with multidisciplinary teams. Responsible for testing, evaluating, and presenting technical demos of solutions to stakeholders."
             />
             
             <TimelineItem
-              year="March 2025 - May 2025"
-              title="Development Engineer"
-              organization="Cyber-Physical Systems Laboratory"
-              description="Designed and integrated AI-driven software pipelines with real-time interaction, particularly applications involving real-time interaction (TTS, STT, Speech-to-Speech), with Retrieval Augmented Generation (RAG) integration."
+              year="February 2024 - March 2025"
+              title="Electronics Design Engineer"
+              organization="2xAutomation Inc."
+              description="I designed and developed embedded electronic systems for regulated industrial environments, including sensor platforms, human-presence detection systems, and aerospace-adjacent equipment, owning the full hardware development lifecycle from requirements definition to schematic design, PCB layout, and manufacturing release. The systems incorporated multiple communication interfaces such as Ethernet, USB, and RS-485, along with mixed-signal sensor front-ends and power architectures featuring multiple regulated rails, protection circuits, and signal conditioning stages. My work emphasized robust hardware design practices, including EMC/EMI-aware layouts, filtering and anti-aliasing bandwidth considerations, grounding strategies, and multilayer stack-up optimization for reliable operation in demanding environments. I also generated complete manufacturing documentation and fabrication outputs for PCB production and assembly. During prototyping and hardware bring-up, I developed lightweight validation and diagnostic scripts to test communications, sensor acquisition pipelines, and overall system functionality across successive hardware revisions."
             />
             
             <TimelineItem
-              year="January 2025 - March 2025"
-              title="AI Engineering Intern"
-              organization="Infosys Limited Bangalore"
-              description="Developed an AI-based solution for a Text-to-SQL problem. The system was designed to work with multiple data sources and handle error management and parallel query execution. A multi-agent architecture was implemented using LangGraph and LangChain."
+              year="July 2022 - Nov 2023"
+              title="Lead UAV Engineer"
+              organization="Caleuche UC"
+              description="I served as the engineer responsible for the autonomous UAV learning and training pipeline, as well as precision landing capabilities for the Caleuche project in preparation for the Maritime RobotX Challenge. My work focused on developing and implementing an autonomous landing pipeline combining state estimation, target tracking, and guidance/control algorithms to enable reliable landings on a moving WAM-V surface vessel. Through iterative field testing and system tuning, I improved landing accuracy and repeatability under real operational conditions. The system integrated sensing and telemetry inputs from GNSS and onboard camera streams while addressing challenges such as platform motion, environmental disturbances, and communication variability. I also collaborated on system-level integration with the WAM-V autonomy stack and sensor suite—including LiDAR, GNSS, cameras, and hydrophones—supporting end-to-end autonomous mission execution and testing."
             />
 
             <TimelineItem
-              year="July 2025 - December 2025"
-              title="Thesis Project"
-              organization="Cyber-Physical Systems Laboratory"
-              description="Developed and deployed an automatic system for classification of complaints received by the chilean Superintendency of Electricity and Fuels based on Large Language Models (LLMs). The work included evaluation and fine-tuning of different LLMs (encoder-only, encoder-decoder, and decoder-only), and implementation of a pilot in web app format that integrates the classification system, data visualization, statistics, and generation of processing requests, optimizing its management in the organization."
+              year="December 2022 - March 2023"
+              title="Robotics Operation Engineer"
+              organization="Mariscope SpA"
+              description="I was responsible for the maintenance, assembly, and field readiness of Remotely Operated Vehicles (ROVs) used for underwater inspection operations in Patagonia salmon farms. My work focused on ensuring mission reliability through preventive maintenance, rapid troubleshooting, and system-level diagnostics across electronic boards, wiring harnesses, and integrated assemblies. I routinely debugged and repaired hardware faults, restoring system functionality and supporting the fabrication and integration of new equipment. Additionally, I assembled and configured battery banks, electrical connectors, and topside operator computers used for real-time visualization and monitoring of ROV camera feeds. During field deployments, I led operational support to keep ROV platforms continuously mission-ready, coordinating logistics, maintenance schedules, and on-site repairs to minimize downtime during extended inspection campaigns."
             />
 
             <TimelineItem
