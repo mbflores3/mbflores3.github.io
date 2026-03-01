@@ -173,9 +173,9 @@ const Index = () => {
               <h3 className="text-xl font-semibold text-primary mb-2">
                 Bachelor of Science
               </h3>
-              <p className="text-muted-foreground mb-2">Pontifical Catholic University of Chile | 2018 - 2024</p>
+              <p className="text-muted-foreground mb-2">Pontifical Catholic University of Chile | 2019 - 2024</p>
               <p className="text-sm text-muted-foreground">
-                Major in Robotics Engineering, Minor in Automation Systems Engineering.
+                Major in Robotics Engineering, Minor in Automation Systems Engineering.<br />
                 Academic Certificate in International Relationships.
                 <br /><br />
                 The program consists of a 6-year curriculum: 4 years of bachelor-level engineering, followed by 2 years of advanced engineering courses and a final thesis.
