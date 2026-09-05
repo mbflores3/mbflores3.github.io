@@ -214,15 +214,15 @@ const Index = () => {
             <ToolCard icon={Code2} name="Python" level="Advanced" />
             <ToolCard icon={Database} name="C++" level="Advanced" />
             <ToolCard icon={Cloud} name="ROS2" level="Advanced" />
-            <ToolCard icon={Brain} name="Docker" level="Advanced" />
+            <ToolCard icon={Server} name="Matlab" level="Advanced" />
+            <ToolCard icon={Brain} name="CAN Open" level="Intermediate" />
             <ToolCard icon={Cpu} name="Codesys" level="Intermediate" />
-            <ToolCard icon={Server} name="Matlab" level="Intermediate" />
           </div>
 
           <div className="terminal-border bg-card/50 p-6 rounded">
             <h3 className="text-lg font-semibold text-primary mb-3">Additional Skills</h3>
             <div className="flex flex-wrap gap-2">
-              {['Git', 'VHDL', 'Linux', 'Shell scripting', 'Open CV', 'Nav2', 'JavaScript', 'HTML', 'CSS', 'Power BI', 'TypeScript', 'PLC', 'MySQL', 'SQLite', 'Matlab', 'PX4'].map((skill) => (
+              {['Git', 'VHDL', 'Linux', 'Ethercat', 'Docker', 'Shell scripting', 'Open CV', 'Nav2', 'JavaScript', 'HTML', 'CSS', 'Power BI', 'TypeScript', 'PLC', 'MySQL', 'SQLite', 'Matlab', 'PX4'].map((skill) => (
                 <span
                   key={skill}
                   className="text-xs px-3 py-1 bg-secondary text-foreground rounded border border-border hover:border-primary transition-colors"
@@ -321,10 +321,33 @@ const Index = () => {
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
                 <a target="_blank" rel="noopener noreferrer">
-                  An integrated complaint management system based on large language models: Case study in the electric sector
+                  Assessment of Light Environment Conditions for Reconstruction of Multispectral1 Images by Conditional Adversarial Networks
                 </a>
               </h3>
-              <p className="text-muted-foreground mb-3">Array Journal | Elsevier | 2025</p>
+              <p className="text-muted-foreground mb-3">Array Journal | Elsevier | Revision</p>
+              <p className="text-sm text-muted-foreground mb-3">
+              This work presents an integrated complaint management system based on large language models, applied to the electric sector. The system automates traditionally manual tasks through a service-oriented architecture combining data processing, virtual analysts, and a web application. Evaluations demonstrate its efficiency, robustness, and scalability.
+              </p>
+              <a
+                href="https://www.sciencedirect.com/science/article/pii/S2590005625001973"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
+                <FileText size={16} />
+                <span>Read Paper</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                <a target="_blank" rel="noopener noreferrer">
+                  Occupancy Probability Maps Synthesis for Deep Reinforcement Learning-Based Navigation in Uncertain Environments
+                </a>
+              </h3>
+              <p className="text-muted-foreground mb-3">Array Journal | Elsevier | Revision</p>
               <p className="text-sm text-muted-foreground mb-3">
               This work presents an integrated complaint management system based on large language models, applied to the electric sector. The system automates traditionally manual tasks through a service-oriented architecture combining data processing, virtual analysts, and a web application. Evaluations demonstrate its efficiency, robustness, and scalability.
               </p>
