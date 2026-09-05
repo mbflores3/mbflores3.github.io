@@ -192,17 +192,13 @@ const Index = () => {
 
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Certifications and Courses
+                Certifications and licences
               </h3>
               <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
-                <li>Django Application Development with SQL and Databases (IBM)</li>
-                <li>AWS Technical Essentials (AWS)</li>
-                <li>Application Development using Microservices and Serverless (IBM)</li>
-                <li>Developing AI Applications with Python and Flask (IBM)</li>
-                <li>Generative AI with LLMs (DeepLearning.AI)</li>
-                <li>Introduction to Linux Commands and Shell Scripting (IBM)</li>
-                <li>C Programming for Beginners (Udemy)</li>
-                <li>Fundamentals of VHDL and FPGA Development (Udemy)</li>
+                <li>Heavy machines operator (Nacitonal Transit Direction)</li>
+                <li>Core Basics (Universal Robots)</li>
+                <li>Explosives manipulator (National direction of general movilization)</li>
+                <li>RPA operator (General direction of civil aeronatics)</li>
               </ul>
             </div>
           </div>
@@ -216,17 +212,17 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             <ToolCard icon={Code2} name="Python" level="Advanced" />
-            <ToolCard icon={Cloud} name="AWS / Google Cloud" level="Intermediate" />
-            <ToolCard icon={Database} name="PostgreSQL / MongoDB" level="Intermediate" />
-            <ToolCard icon={Brain} name="PyTorch" level="Intermediate" />
-            <ToolCard icon={Server} name="FastAPI / Flask" level="Intermediate" />
-            <ToolCard icon={Cpu} name="Docker" level="Intermediate" />
+            <ToolCard icon={Database} name="C++" level="Advanced" />
+            <ToolCard icon={Cloud} name="ROS2" level="Advanced" />
+            <ToolCard icon={Brain} name="Docker" level="Advanced" />
+            <ToolCard icon={Cpu} name="Codesys" level="Intermediate" />
+            <ToolCard icon={Server} name="Matlab" level="Intermediate" />
           </div>
 
           <div className="terminal-border bg-card/50 p-6 rounded">
             <h3 className="text-lg font-semibold text-primary mb-3">Additional Skills</h3>
             <div className="flex flex-wrap gap-2">
-              {['Git', 'REST', 'Linux', 'Shell scripting', 'Redis', 'Celery', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'TypeScript', 'Django', 'MySQL', 'SQLite', 'ArangoDB', 'Google Cloud Run', 'Google Composer', 'Langfuse', 'DeepEval'].map((skill) => (
+              {['Git', 'VHDL', 'Linux', 'Shell scripting', 'Open CV', 'Nav2', 'JavaScript', 'HTML', 'CSS', 'Power BI', 'TypeScript', 'PLC', 'MySQL', 'SQLite', 'Matlab', 'PX4'].map((skill) => (
                 <span
                   key={skill}
                   className="text-xs px-3 py-1 bg-secondary text-foreground rounded border border-border hover:border-primary transition-colors"
