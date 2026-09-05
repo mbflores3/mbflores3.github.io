@@ -338,9 +338,7 @@ const Index = () => {
                 <span>Read Paper</span>
               </a>
             </div>
-          </div>
 
-          <div className="space-y-6">
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
                 <a target="_blank" rel="noopener noreferrer">
