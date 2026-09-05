@@ -251,7 +251,7 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Learning Japanese App"
+                    title="Barrier Functions for Quadrotor Collision Avoidance System Using Nonlinear Model Predictive Control"
                     description="A web application for Japanese language learners. It features a translation tool and provides a list of study resources available in Chile. Live app below!"
                     tech={['Python', 'FastAPI', 'PostgreSQL', 'Docker', 'Cloudflare', 'Amazon EC2', 'TypeScript', 'DeepL']}
                     github="https://github.com/tsunayoshi21/learning-japanese-app"
@@ -263,7 +263,7 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Finetuning BETO"
+                    title="Autonomous Vehicles Learning APP"
                     description="Fine-tuning of the BETO model (BERT-based model for Spanish) to classify sentences into school subjects. It includes training, evaluation, and integration into a local app."
                     tech={['Python', 'PyTorch', 'Transformers', 'JavaScript', 'HTML', 'CSS', 'TypeScript', 'Flask']}
                     github="https://github.com/csierr/finetuning-beto-for-spanish-text-classification"
@@ -274,7 +274,7 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Realtime Chatbot"
+                    title="Autonomous Delivery Drone"
                     description="Local application that allows users to chat with an assistant through text and voice, using the Realtime API and WebSocket-based communication."
                     tech={['Python','FastAPI', 'WebSocket', 'OpenAI', 'JavaScript', 'HTML', 'CSS']}
                     github="https://github.com/csierr/realtime-voice-chatbot"
@@ -285,7 +285,7 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Forecasting Store Sales"
+                    title="Collision Detector"
                     description="Analysis and forecast of monthly sales using Theta Forecaster, SARIMA, and Prophet. It covers EDA, data pre-processing, and performance evaluation (MAPE, MAE, and R²)."
                     tech={['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Statsmodels', 'Prophet', 'Arima']}
                     github="https://github.com/csierr/forecasting-superstore-sales"
@@ -296,7 +296,7 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Personal Finances App"
+                    title="Collecting face mask robot for university campus"
                     description="Application to track personal expenses through a dedicated UI and Telegram bot. It integrates OpenAI for enhanced user interaction and financial insights."
                     tech={['Python', 'Flask', 'MySQL', 'JavaScript', 'HTML', 'Telegram API', 'OpenAI', 'CSS']}
                     github="https://github.com/tsunayoshi21/catitaycris_expenses_app"
