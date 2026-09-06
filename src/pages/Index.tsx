@@ -252,11 +252,11 @@ const Index = () => {
                 <div className="p-1">
                   <ProjectCard
                     title="Barrier Functions for Quadrotor Collision Avoidance System Using Nonlinear Model Predictive Control"
-                    description="A web application for Japanese language learners. It features a translation tool and provides a list of study resources available in Chile. Live app below!"
-                    tech={['Python', 'FastAPI', 'PostgreSQL', 'Docker', 'Cloudflare', 'Amazon EC2', 'TypeScript', 'DeepL']}
+                    description="A self research project about collision avoidance techniques using HOCBF-NMPC with probabilistic form of dinamyc obstacles"
+                    tech={['Python', 'ROS2', 'PX4', 'Docker', 'Gazebo', 'MPC', 'CBF', 'Dynamic Obstacles']}
                     github="https://github.com/tsunayoshi21/learning-japanese-app"
                     link="https://jap-app.csierr.cl/"
-                    image="/images/learning_japanese.png"
+                    image="/images/CollisionAvoidance.png"
                   />
                 </div>
               </CarouselItem>
