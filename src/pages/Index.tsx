@@ -300,7 +300,7 @@ const Index = () => {
                     description="Robot design to collect residual face masks around university campus after pandemic restricions rules."
                     tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'Image Processing', 'Machine Learning', 'Electronic Circuits']}
                     github="https://github.com/tsunayoshi21/catitaycris_expenses_app"
-                    image="/images/Wall2Construction"
+                    image="/images/Wall2Construction.jpeg"
                   />
                 </div>
               </CarouselItem>
