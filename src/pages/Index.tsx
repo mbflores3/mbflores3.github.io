@@ -274,11 +274,11 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Autonomous Delivery Drone"
-                    description="Local application that allows users to chat with an assistant through text and voice, using the Realtime API and WebSocket-based communication."
-                    tech={['Python','FastAPI', 'WebSocket', 'OpenAI', 'JavaScript', 'HTML', 'CSS']}
+                    title="Taco Delivery Drone"
+                    description="Project to learn computer vision techniques for precision landing with quadrotor platform in a virtual enviroment that lead to a fun taco delivery simulation"
+                    tech={['Python','ROS', 'Gazebo', 'Mavlink', 'Open CV', 'Image Processing', 'VirtualBox']}
                     github="https://github.com/csierr/realtime-voice-chatbot"
-                    image="/images/realtime-chatbot.png"
+                    image="/images/TacoDeliveryDrone.png"
                   />
                 </div>
               </CarouselItem>
