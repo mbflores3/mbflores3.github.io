@@ -296,11 +296,11 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Collecting face mask robot for university campus"
-                    description="Application to track personal expenses through a dedicated UI and Telegram bot. It integrates OpenAI for enhanced user interaction and financial insights."
-                    tech={['Python', 'Flask', 'MySQL', 'JavaScript', 'HTML', 'Telegram API', 'OpenAI', 'CSS']}
+                    title="Collecting face mask robot"
+                    description="Robot design to collect residual face masks around university campus after pandemic restricions rules."
+                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'Image Processing', 'Machine Learning', 'Electronic Circuits']}
                     github="https://github.com/tsunayoshi21/catitaycris_expenses_app"
-                    image="/images/finanzas_app.png"
+                    image="/images/Wall2Construction"
                   />
                 </div>
               </CarouselItem>
