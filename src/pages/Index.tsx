@@ -286,10 +286,10 @@ const Index = () => {
                 <div className="p-1">
                   <ProjectCard
                     title="Collision Detector"
-                    description="Analysis and forecast of monthly sales using Theta Forecaster, SARIMA, and Prophet. It covers EDA, data pre-processing, and performance evaluation (MAPE, MAE, and R²)."
-                    tech={['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Statsmodels', 'Prophet', 'Arima']}
-                    github="https://github.com/csierr/forecasting-superstore-sales"
-                    image="/images/forecasting.png"
+                    description="Collision Detection in an Agricultural Robot Using XGBoost and ROS2."
+                    tech={['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'ROS2', 'XGBoost']}
+                    github="https://github.com/mbflores3/Colission-detection"
+                    image="/images/CollisionDetection.png"
                   />
                 </div>
               </CarouselItem>
