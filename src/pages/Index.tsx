@@ -193,7 +193,7 @@ const Index = () => {
 
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Certifications and licences
+                Certifications and licenses
               </h3>
               <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
                 <li>Heavy machines operator (Natitonal Direction of Transit)</li>
