@@ -103,7 +103,7 @@ const Index = () => {
             <TimelineItem
               year="March 2025 - Present"
               title="Robotics Autonomy Project Engineer"
-              organization="Enaex S.A."
+              organization="Enaex Robotics"
               description="I participated in the development and implementation of control and navigation systems for the RoboPrimer robot, designed for autonomous operation in open-pit mining. My responsibilities included programming navigation algorithms using ROS, integrating and configuring sensors such as LiDAR and Trimble GNSS systems for precise georeferencing, coordinate surveying and validation, and generating operational maps. I also worked on programming and diagnosing PLCs and industrial control systems, ensuring proper communication between the robot's various subsystems. I developed technical procedures and operating manuals for commissioning, operation, and maintenance, including sensor validation, error management, and field operating protocols. Additionally, for the UG remote-controlled robot for underground mining, I performed testing and validation of telecommunications links and participated in the design and implementation of a semi-automatic arm for loading faces, which is currently deployed in mining operations, contributing to improved safety and operational efficiency."
               projectUrl="/projects/enaexrobotics"
             />
