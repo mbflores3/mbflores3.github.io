@@ -113,6 +113,7 @@ const Index = () => {
               title="Researcher"
               organization="SPAE Group"
               description="Autonomous UAV Navigation & Obstacle Avoidance (PX4 + ROS 2 + LiDAR, VOXL2), research project that focuses on enabling autonomous navigation and reactive/semi-planned avoidance for a multirotor drone, combining LiDAR perception, state fusion, and control on a PX4 offboard. I implemented and integrated ROS2 nodes for: (i) LiDAR acquisition and preprocessing (scan/points), (ii) basic obstacle detection and classification using clustering (DBSCAN) and geometric adjustment, (iii) goal generation and mission logic, (iv) ROS↔PX4 bridging via uXRCE-DDS/MicroDDS (topics /fmu/in/* and /fmu/out/*), and (v) speed/position control by translating planning to TrajectorySetpoint. The stack is validated in reproducible simulation using Docker Compose + PX4 SITL + Gazebo + slam_toolbox/RViz, with robustness criteria (QoS, timestamps, frames/TF, fallback modes, and startup/diagnostic procedures)."
+              projectUrl="/projects/spaegroup"
             />
 
             <TimelineItem
@@ -120,6 +121,7 @@ const Index = () => {
               title="Researcher"
               organization="TarLab"
               description="Conducted research in computer vision and autonomous perception for forest environments, focusing on individual tree crown detection and delineation from high-resolution aerial orthomosaics. My work involves building an end-to-end data processing and experimentation pipeline that integrates geospatial preprocessing tools (CloudCompare and QGIS) with robotic and perception frameworks such as ROS and RViz for visualization and analysis of recorded sensor data (ROS bag files). On the machine learning side, I evaluate and benchmark multiple state-of-the-art models for tree crown detection and instance segmentation, including StarDist, Detectree2, and DeepForest. This research includes designing dataset preparation pipelines (tiling orthomosaics, generating instance masks from annotations, and converting bounding-box datasets into segmentation labels), implementing training and cross-validation procedures, and analyzing performance using metrics such as Average Precision (AP) and mean Average Precision (mAP). A key engineering component of the project involves developing reproducible workflows for large-scale geospatial datasets, integrating annotation formats (JSON/XML), automating mask generation and instance labeling, and validating model performance across heterogeneous forest datasets."
+              projectUrl="/projects/tarlab"
             />
             
             <TimelineItem
@@ -127,6 +129,7 @@ const Index = () => {
               title="Electronics Design Engineer"
               organization="2xAutomation Inc."
               description="I designed and developed embedded electronic systems for regulated industrial environments, including sensor platforms, human-presence detection systems, and aerospace-adjacent equipment, owning the full hardware development lifecycle from requirements definition to schematic design, PCB layout, and manufacturing release. The systems incorporated multiple communication interfaces such as Ethernet, USB, and RS-485, along with mixed-signal sensor front-ends and power architectures featuring multiple regulated rails, protection circuits, and signal conditioning stages. My work emphasized robust hardware design practices, including EMC/EMI-aware layouts, filtering and anti-aliasing bandwidth considerations, grounding strategies, and multilayer stack-up optimization for reliable operation in demanding environments. I also generated complete manufacturing documentation and fabrication outputs for PCB production and assembly. During prototyping and hardware bring-up, I developed lightweight validation and diagnostic scripts to test communications, sensor acquisition pipelines, and overall system functionality across successive hardware revisions."
+              projectUrl="/projects/2xautomation"
             />
             
             <TimelineItem
@@ -142,6 +145,7 @@ const Index = () => {
               title="Robotics Operation Engineer"
               organization="Mariscope SpA"
               description="I was responsible for the maintenance, assembly, and field readiness of Remotely Operated Vehicles (ROVs) used for underwater inspection operations in Patagonia salmon farms. My work focused on ensuring mission reliability through preventive maintenance, rapid troubleshooting, and system-level diagnostics across electronic boards, wiring harnesses, and integrated assemblies. I routinely debugged and repaired hardware faults, restoring system functionality and supporting the fabrication and integration of new equipment. Additionally, I assembled and configured battery banks, electrical connectors, and topside operator computers used for real-time visualization and monitoring of ROV camera feeds. During field deployments, I led operational support to keep ROV platforms continuously mission-ready, coordinating logistics, maintenance schedules, and on-site repairs to minimize downtime during extended inspection campaigns."
+              projectUrl="/projects/mariscope"
             />
 
             <TimelineItem
@@ -149,6 +153,7 @@ const Index = () => {
               title="Undergraduate Researcher"
               organization="Pontifical Catholic University of Chile"
               description="I conducted research on autonomous UAV precision landing at the Pontifical Catholic University of Chile (PUC) under the supervision of Prof. Giancarlo Troni as part of the RobotX 2022 initiative. The work focused on developing a computer-vision-based precision landing system using Python and ROS. I built and integrated a UAV platform, including airframe assembly, brushless DC motor and ESC integration, and flight controller configuration, enabling iterative flight testing and system bring-up. On the software side, I implemented a perception-driven landing pipeline in ROS that combined visual target detection and tracking with landing logic and interfaced these autonomy modules with the UAV control stack. This work strengthened my hardware–software integration capabilities through end-to-end development involving sensor and actuator integration, ROS messaging, and debugging of robotic communication and control loops during experimental testing."
+              projectUrl="/projects/ipreuc"
             />
 
             <TimelineItem
@@ -156,6 +161,7 @@ const Index = () => {
               title="Undergraduate Researcher"
               organization="University of Santiago of Chile"
               description="I worked as a research assistant to Prof. Juan Francisco Fuentealba, contributing to experimental studies on fracture behavior in isotropic and anisotropic materials. My work involved designing and implementing controlled laboratory experiments to investigate crack propagation mechanisms. I built a dedicated test bench for soft-glass fracture experiments, enabling repeatable testing conditions and precise observation of fracture dynamics. Through these experiments, I analyzed fracture paths to infer the minimum-energy trajectories governing crack propagation, gaining experience in experimental design, mechanical testing, and the physical modeling of material failure processes."
+              projectUrl="/projects/ipreusach"
             />
           </div>
         </section>
