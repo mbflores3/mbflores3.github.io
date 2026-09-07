@@ -133,6 +133,7 @@ const Index = () => {
               title="Lead UAV Engineer"
               organization="Caleuche UC"
               description="I served as the engineer responsible for the autonomous UAV learning and training pipeline, as well as precision landing capabilities for the Caleuche project in preparation for the Maritime RobotX Challenge. My work focused on developing and implementing an autonomous landing pipeline combining state estimation, target tracking, and guidance/control algorithms to enable reliable landings on a moving WAM-V surface vessel. Through iterative field testing and system tuning, I improved landing accuracy and repeatability under real operational conditions. The system integrated sensing and telemetry inputs from GNSS and onboard camera streams while addressing challenges such as platform motion, environmental disturbances, and communication variability. I also collaborated on system-level integration with the WAM-V autonomy stack and sensor suite—including LiDAR, GNSS, cameras, and hydrophones—supporting end-to-end autonomous mission execution and testing."
+              projectUrl="/projects/robotx"
             />
 
             <TimelineItem
