@@ -30,8 +30,8 @@ const App = () => (
           <Route path="/projects/xautomation" element={<xAutomation />} />
           <Route path="/projects/robotx" element={<RobotX />} />
           <Route path="/projects/mariscope" element={<Mariscope />} />
-          <Route path="/projects/uc" element={<UC />} />
-          <Route path="/projects/usach" element={<USACH />} />
+          <Route path="/projects/ipreuc" element={<IpreUC />} />
+          <Route path="/projects/ipreusach" element={<IpreUSACH />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
