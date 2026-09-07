@@ -17,10 +17,14 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route
-            path="/projects/robotx"
-            element={<RobotX />}
-          />
+          <Route path="/projects/enaexrobotics" element={<EnaexRobotics />} />
+          <Route path="/projects/spaegroup" element={<SpaeGroup />} />
+          <Route path="/projects/tarlab" element={<TarLab />} />
+          <Route path="/projects/2xautomation" element={<2xAutomation />} />
+          <Route path="/projects/robotx" element={<RobotX />} />
+          <Route path="/projects/mariscope" element={<Mariscope />} />
+          <Route path="/projects/uc" element={<UC />} />
+          <Route path="/projects/usach" element={<USACH />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
