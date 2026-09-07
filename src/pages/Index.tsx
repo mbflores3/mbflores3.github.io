@@ -298,7 +298,7 @@ const Index = () => {
                   <ProjectCard
                     title="Wall2 - Face Mask Collector robot"
                     description="Robot design to collect residual face masks around university campus after pandemic restrictions rules."
-                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Mechanical Design', 'Fusion 360', 'Image Processing', 'Machine Learning', 'PCB Design', 'KiCad']}
+                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'ML', 'KiCad']}
                     github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
                     image="/images/Wall2Construction.jpeg"
                   />
