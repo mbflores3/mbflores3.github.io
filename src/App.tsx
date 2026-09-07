@@ -7,7 +7,6 @@ import Index from "./pages/Index";
 import EnaexRobotics from "./pages/projects/EnaexRobotics";
 import SpaeGroup from "./pages/projects/SpaeGroup";
 import TarLab from "./pages/projects/TarLab";
-import Automation from "./pages/projects/Automation";
 import RobotX from "./pages/projects/RobotX";
 import Mariscope from "./pages/projects/Mariscope";
 import IpreUC from "./pages/projects/IpreUC";
@@ -27,7 +26,6 @@ const App = () => (
           <Route path="/projects/enaexrobotics" element={<EnaexRobotics />} />
           <Route path="/projects/spaegroup" element={<SpaeGroup />} />
           <Route path="/projects/tarlab" element={<TarLab />} />
-          <Route path="/projects/automation" element={<Automation />} />
           <Route path="/projects/robotx" element={<RobotX />} />
           <Route path="/projects/mariscope" element={<Mariscope />} />
           <Route path="/projects/ipreuc" element={<IpreUC />} />
