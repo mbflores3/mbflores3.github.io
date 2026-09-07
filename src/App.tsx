@@ -17,7 +17,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/*<Route path="/projects/enaexrobotics" element={<EnaexRobotics />} /> */}
+          <Route path="/projects/enaexrobotics" element={<EnaexRobotics />} />
           {/*<Route path="/projects/spaegroup" element={<SpaeGroup />} /> */}
           {/*<Route path="/projects/tarlab" element={<TarLab />} /> */}
           {/*<Route path="/projects/2xautomation" element={<2xAutomation />} /> */}
