@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 interface TimelineItemProps {
   year: string;
   title: string;
@@ -18,7 +20,9 @@ export const TimelineItem = ({
       <div className="absolute left-0 top-0 -translate-x-1/2 w-4 h-4 rounded-full bg-primary glow-primary"></div>
 
       <div className="mb-1">
-        <span className="text-sm text-primary font-semibold">{year}</span>
+        <span className="text-sm text-primary font-semibold">
+          {year}
+        </span>
       </div>
 
       <h3 className="text-lg font-semibold text-foreground mb-1">
