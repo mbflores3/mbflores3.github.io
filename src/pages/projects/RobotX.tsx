@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 const RobotX = () => {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <div className="max-w-5xl mx-auto px-6 py-16">
 
-        <a
-          href="/"
+        <Link
+          to="/#experience"
           className="text-accent hover:underline inline-block mb-10"
         >
           ← Back to portfolio
-        </a>
+        </Link>
 
         <div className="mb-12">
           <p className="text-accent font-mono mb-3">
@@ -35,11 +37,8 @@ const RobotX = () => {
             <span className="text-accent">//</span> Overview
           </h2>
 
-          <p className="text-muted-foreground leading-relaxed">
-            As Lead UAV Engineer for Caleuche UC, I worked on the
-            development of autonomous precision landing capabilities
-            for a UAV operating from a moving WAM-V surface vessel
-            during the Maritime RobotX Challenge.
+          <p>
+            I served as the engineer responsible for the autonomous UAV learning and training pipeline, as well as precision landing capabilities for the Caleuche project in preparation for the Maritime RobotX Challenge. My work focused on developing and implementing an autonomous landing pipeline combining state estimation, target tracking, and guidance/control algorithms to enable reliable landings on a moving WAM-V surface vessel. Through iterative field testing and system tuning, I improved landing accuracy and repeatability under real operational conditions. The system integrated sensing and telemetry inputs from GNSS and onboard camera streams while addressing challenges such as platform motion, environmental disturbances, and communication variability. I also collaborated on system-level integration with the WAM-V autonomy stack and sensor suite—including LiDAR, GNSS, cameras, and hydrophones—supporting end-to-end autonomous mission execution and testing.
           </p>
         </section>
 
