@@ -196,7 +196,7 @@ const Index = () => {
                 Certifications and licenses
               </h3>
               <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
-                <li>Heavy machines operator (Natitonal Direction of Transit)</li>
+                <li>Heavy machines operator (National Direction of Transit)</li>
                 <li>Core Basics (Universal Robots)</li>
                 <li>Explosives manipulator (National Direction of General Movilization)</li>
                 <li>RPA operator (General Direction of Civil Aeronautics)</li>
