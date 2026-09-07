@@ -296,10 +296,10 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
-                    title="Collecting face mask robot"
-                    description="Robot design to collect residual face masks around university campus after pandemic restricions rules."
-                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'Image Processing', 'Machine Learning', 'Electronic Circuits']}
-                    github="https://github.com/tsunayoshi21/catitaycris_expenses_app"
+                    title="Wall2 - Face Mask Collector robot"
+                    description="Robot design to collect residual face masks around university campus after pandemic restrictions rules."
+                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Mechanical Design', 'Fusion 360', 'Image Processing', 'Machine Learning', 'PCB Design', 'KiCad']}
+                    github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
                     image="/images/Wall2Construction.jpeg"
                   />
                 </div>
