@@ -112,7 +112,7 @@ const Index = () => {
               year="January 2025 - September 2025"
               title="Researcher"
               organization="SPAE Group"
-              description="Developed an autonomous UAV navigation and obstacle-avoidance stack integrating ROS 2, PX4, LiDAR, and VOXL2. Worked on perception, obstacle detection, mission logic, and flight control, with simulation and validation using Gazebo, Docker, and RViz."
+              description="Developed and integrated a LiDAR-equipped UAV platform and its ROS 2/Gazebo simulation, including custom mechanical integration and physically informed inertial models. Collaborated on deep reinforcement learning research for navigation under uncertain occupancy maps and currently investigate probabilistic NMPC + HOCBF methods for safe UAV navigation under uncertainty."
               projectUrl="/projects/spaegroup"
             />
 
