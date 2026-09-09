@@ -380,7 +380,7 @@ const Index = () => {
               <h3 className="text-xl font-semibold text-primary mb-2">
                 Mobile Robotics IIC2685
               </h3>
-              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2024 </p>
+              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2022 </p>
               <p className="text-sm text-muted-foreground mb-3">
                 Introduced students to publisher and subcriber communication through topics using ROS/ROS2, and understanding navigation, perception and localization techniques.
               </p>
