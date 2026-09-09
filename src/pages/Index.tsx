@@ -258,6 +258,17 @@ const Index = () => {
               <CarouselItem className="basis-full md:basis-1/2">
                 <div className="p-1">
                   <ProjectCard
+                    title="Wall2 - Face Mask Collector robot"
+                    description="Robot design to collect residual face masks around university campus after pandemic restrictions rules."
+                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'ML', 'KiCad']}
+                    github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
+                    image="/images/Wall2Construction.jpeg"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="basis-full md:basis-1/2">
+                <div className="p-1">
+                  <ProjectCard
                     title="Barrier Functions for Quadrotor Collision Avoidance System Using Nonlinear Model Predictive Control"
                     description="A self research project about collision avoidance techniques using HOCBF-NMPC with probabilistic form of dinamyc obstacles"
                     tech={['Python', 'ROS2', 'PX4', 'Docker', 'Gazebo', 'MPC', 'CBF', 'Dynamic Obstacles']}
@@ -297,17 +308,6 @@ const Index = () => {
                     tech={['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'ROS2', 'XGBoost']}
                     github="https://github.com/mbflores3/Colission-detection"
                     image="/images/CollisionDetection.png"
-                  />
-                </div>
-              </CarouselItem>
-              <CarouselItem className="basis-full md:basis-1/2">
-                <div className="p-1">
-                  <ProjectCard
-                    title="Wall2 - Face Mask Collector robot"
-                    description="Robot design to collect residual face masks around university campus after pandemic restrictions rules."
-                    tech={['Python', 'Arduino', 'PID', 'Open CV', 'Fusion 360', 'ML', 'KiCad']}
-                    github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
-                    image="/images/Wall2Construction.jpeg"
                   />
                 </div>
               </CarouselItem>
@@ -378,63 +378,24 @@ const Index = () => {
           <div className="space-y-6">
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Digital Communications Networks IEE2544
+                Mobile Robotics IIC2685
               </h3>
               <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2024 </p>
               <p className="text-sm text-muted-foreground mb-3">
-                Assisted students in understanding network protocols, digital modulation techniques, and communication systems.
+                Introduced students to publisher and subcriber communication through topics using ROS/ROS2, and understanding navigation, perception and localization techniques.
               </p>
             </div>
 
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Programmable Electronic Systems IEE2463
+                Automatic Control IEE2613
               </h3>
               <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2023 </p>
               <p className="text-sm text-muted-foreground mb-3">
-                Performed live hands-on laboratory and study sessions with embedded systems, circuit design, and microcontrollers. For the course the Zybo Z7-10 board was used.
+                Responsible for grading student's tests, assignments, and projects abot different closed loop control techniques such as PID, LGR, Nyquist Bode stability criteria and many more. 
               </p>
             </div> 
-
-            <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
-              <h3 className="text-xl font-semibold text-primary mb-2">
-                Telecommunications IEE2513
-              </h3>
-              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2023 - 2024</p>
-              <p className="text-sm text-muted-foreground mb-3">
-                Assisted students in topics such as signal transmission, network architecture, and data communication.
-              </p>
-            </div>
-
-            <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
-              <h3 className="text-xl font-semibold text-primary mb-2">
-                Electronics IEE2413
-              </h3>
-              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2022 </p>
-              <p className="text-sm text-muted-foreground mb-3">
-                Performed live study sessions on circuit design and analysis, and semiconductor devices.
-              </p>
-            </div>
-
-            <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
-              <h3 className="text-xl font-semibold text-primary mb-2">
-                Electromagnetic Theory IEE2113
-              </h3>
-              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2021 - 2022</p>
-              <p className="text-sm text-muted-foreground mb-3">
-                Performed live study sessions in topics related to electromagnetic theory, including Maxwell's equations, wave propagation, and antenna design.
-              </p>
-            </div>
-
-            <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
-              <h3 className="text-xl font-semibold text-primary mb-2">
-                Signals and Systems IEE2103
-              </h3>
-              <p className="text-muted-foreground mb-3">Pontifical Catholic University of Chile | 2020 </p>
-              <p className="text-sm text-muted-foreground">
-                Performed live study sessions on Laplace and Fourier transforms, system analysis, and signal processing concepts.
-              </p>
-            </div>
+            
           </div>
         </section>
 
