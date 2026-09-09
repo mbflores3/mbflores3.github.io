@@ -129,6 +129,7 @@ const Index = () => {
               title="Electronics Design Engineer"
               organization="2xAutomation Inc."
               description="I designed and developed embedded electronic systems for regulated industrial environments, including sensor platforms, human-presence detection systems, and aerospace-adjacent equipment, owning the full hardware development lifecycle from requirements definition to schematic design, PCB layout, and manufacturing release. The systems incorporated multiple communication interfaces such as Ethernet, USB, and RS-485, along with mixed-signal sensor front-ends and power architectures featuring multiple regulated rails, protection circuits, and signal conditioning stages. My work emphasized robust hardware design practices, including EMC/EMI-aware layouts, filtering and anti-aliasing bandwidth considerations, grounding strategies, and multilayer stack-up optimization for reliable operation in demanding environments. I also generated complete manufacturing documentation and fabrication outputs for PCB production and assembly. During prototyping and hardware bring-up, I developed lightweight validation and diagnostic scripts to test communications, sensor acquisition pipelines, and overall system functionality across successive hardware revisions."
+              projectUrl="/projects/xautomation"
             />
             
             <TimelineItem
