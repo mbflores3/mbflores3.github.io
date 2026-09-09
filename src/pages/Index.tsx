@@ -104,7 +104,7 @@ const Index = () => {
               year="March 2025 - Present"
               title="Robotics Autonomy Project Engineer"
               organization="Enaex Robotics"
-              description="I participated in the development and implementation of control and navigation systems for the RoboPrimer robot, designed for autonomous operation in open-pit mining. My responsibilities included programming navigation algorithms using ROS, integrating and configuring sensors such as LiDAR and Trimble GNSS systems for precise georeferencing, coordinate surveying and validation, and generating operational maps. I also worked on programming and diagnosing PLCs and industrial control systems, ensuring proper communication between the robot's various subsystems. I developed technical procedures and operating manuals for commissioning, operation, and maintenance, including sensor validation, error management, and field operating protocols. Additionally, for the UG remote-controlled robot for underground mining, I performed testing and validation of telecommunications links and participated in the design and implementation of a semi-automatic arm for loading faces, which is currently deployed in mining operations, contributing to improved safety and operational efficiency."
+              description="Developed and integrated autonomous navigation and control systems for mining robots operating in open-pit and underground environments. Worked with ROS, LiDAR, GNSS, industrial control systems, and field validation, contributing to autonomous and teleoperated robotic systems deployed in real mining operations."
               projectUrl="/projects/enaexrobotics"
             />
 
@@ -112,7 +112,7 @@ const Index = () => {
               year="January 2025 - September 2025"
               title="Researcher"
               organization="SPAE Group"
-              description="Autonomous UAV Navigation & Obstacle Avoidance (PX4 + ROS 2 + LiDAR, VOXL2), research project that focuses on enabling autonomous navigation and reactive/semi-planned avoidance for a multirotor drone, combining LiDAR perception, state fusion, and control on a PX4 offboard. I implemented and integrated ROS2 nodes for: (i) LiDAR acquisition and preprocessing (scan/points), (ii) basic obstacle detection and classification using clustering (DBSCAN) and geometric adjustment, (iii) goal generation and mission logic, (iv) ROS↔PX4 bridging via uXRCE-DDS/MicroDDS (topics /fmu/in/* and /fmu/out/*), and (v) speed/position control by translating planning to TrajectorySetpoint. The stack is validated in reproducible simulation using Docker Compose + PX4 SITL + Gazebo + slam_toolbox/RViz, with robustness criteria (QoS, timestamps, frames/TF, fallback modes, and startup/diagnostic procedures)."
+              description="Developed an autonomous UAV navigation and obstacle-avoidance stack integrating ROS 2, PX4, LiDAR, and VOXL2. Worked on perception, obstacle detection, mission logic, and flight control, with simulation and validation using Gazebo, Docker, and RViz."
               projectUrl="/projects/spaegroup"
             />
 
@@ -120,7 +120,7 @@ const Index = () => {
               year="December 2025 - July 2025"
               title="Researcher"
               organization="TarLab"
-              description="Conducted research in computer vision and autonomous perception for forest environments, focusing on individual tree crown detection and delineation from high-resolution aerial orthomosaics. My work involves building an end-to-end data processing and experimentation pipeline that integrates geospatial preprocessing tools (CloudCompare and QGIS) with robotic and perception frameworks such as ROS and RViz for visualization and analysis of recorded sensor data (ROS bag files). On the machine learning side, I evaluate and benchmark multiple state-of-the-art models for tree crown detection and instance segmentation, including StarDist, Detectree2, and DeepForest. This research includes designing dataset preparation pipelines (tiling orthomosaics, generating instance masks from annotations, and converting bounding-box datasets into segmentation labels), implementing training and cross-validation procedures, and analyzing performance using metrics such as Average Precision (AP) and mean Average Precision (mAP). A key engineering component of the project involves developing reproducible workflows for large-scale geospatial datasets, integrating annotation formats (JSON/XML), automating mask generation and instance labeling, and validating model performance across heterogeneous forest datasets."
+              description="Conducted research on computer vision and autonomous perception for forest environments using high-resolution aerial imagery. Developed data-processing, training, and evaluation pipelines for tree crown detection and instance segmentation using deep-learning and geospatial tools."
               projectUrl="/projects/tarlab"
             />
             
@@ -128,7 +128,7 @@ const Index = () => {
               year="February 2024 - March 2025"
               title="Electronics Design Engineer"
               organization="2xAutomation Inc."
-              description="I designed and developed embedded electronic systems for regulated industrial environments, including sensor platforms, human-presence detection systems, and aerospace-adjacent equipment, owning the full hardware development lifecycle from requirements definition to schematic design, PCB layout, and manufacturing release. The systems incorporated multiple communication interfaces such as Ethernet, USB, and RS-485, along with mixed-signal sensor front-ends and power architectures featuring multiple regulated rails, protection circuits, and signal conditioning stages. My work emphasized robust hardware design practices, including EMC/EMI-aware layouts, filtering and anti-aliasing bandwidth considerations, grounding strategies, and multilayer stack-up optimization for reliable operation in demanding environments. I also generated complete manufacturing documentation and fabrication outputs for PCB production and assembly. During prototyping and hardware bring-up, I developed lightweight validation and diagnostic scripts to test communications, sensor acquisition pipelines, and overall system functionality across successive hardware revisions."
+              description="Designed embedded electronic systems and multilayer PCBs for industrial applications, covering schematic design, PCB layout, communication interfaces, power architectures, EMC/EMI considerations, manufacturing release, and hardware validation."
               projectUrl="/projects/xautomation"
             />
             
@@ -136,7 +136,7 @@ const Index = () => {
               year="July 2022 - Nov 2023"
               title="Lead UAV Engineer"
               organization="Caleuche UC"
-              description="I served as the engineer responsible for the autonomous UAV learning and training pipeline, as well as precision landing capabilities for the Caleuche project in preparation for the Maritime RobotX Challenge. My work focused on developing and implementing an autonomous landing pipeline combining state estimation, target tracking, and guidance/control algorithms to enable reliable landings on a moving WAM-V surface vessel. Through iterative field testing and system tuning, I improved landing accuracy and repeatability under real operational conditions. The system integrated sensing and telemetry inputs from GNSS and onboard camera streams while addressing challenges such as platform motion, environmental disturbances, and communication variability. I also collaborated on system-level integration with the WAM-V autonomy stack and sensor suite—including LiDAR, GNSS, cameras, and hydrophones—supporting end-to-end autonomous mission execution and testing."
+              description="Developed autonomous precision-landing capabilities for a UAV operating from a moving WAM-V surface vessel for the Maritime RobotX Challenge. Worked on perception, target tracking, state estimation, guidance/control, and integration with the vessel's autonomous sensor stack."
               projectUrl="/projects/robotx"
             />
 
@@ -144,7 +144,7 @@ const Index = () => {
               year="December 2022 - March 2023"
               title="Robotics Operation Engineer"
               organization="Mariscope SpA"
-              description="I was responsible for the maintenance, assembly, and field readiness of Remotely Operated Vehicles (ROVs) used for underwater inspection operations in Patagonia salmon farms. My work focused on ensuring mission reliability through preventive maintenance, rapid troubleshooting, and system-level diagnostics across electronic boards, wiring harnesses, and integrated assemblies. I routinely debugged and repaired hardware faults, restoring system functionality and supporting the fabrication and integration of new equipment. Additionally, I assembled and configured battery banks, electrical connectors, and topside operator computers used for real-time visualization and monitoring of ROV camera feeds. During field deployments, I led operational support to keep ROV platforms continuously mission-ready, coordinating logistics, maintenance schedules, and on-site repairs to minimize downtime during extended inspection campaigns."
+              description="Built, maintained, and operated ROVs for underwater inspection missions in Patagonia. Worked on electronics troubleshooting, system integration, power systems, topside equipment, and field operations to maintain reliable robotic operation in demanding marine environments."
               projectUrl="/projects/mariscope"
             />
 
@@ -152,7 +152,7 @@ const Index = () => {
               year="July 2021 - March 2022"
               title="Undergraduate Researcher"
               organization="Pontifical Catholic University of Chile"
-              description="I conducted research on autonomous UAV precision landing at the Pontifical Catholic University of Chile (PUC) under the supervision of Prof. Giancarlo Troni as part of the RobotX 2022 initiative. The work focused on developing a computer-vision-based precision landing system using Python and ROS. I built and integrated a UAV platform, including airframe assembly, brushless DC motor and ESC integration, and flight controller configuration, enabling iterative flight testing and system bring-up. On the software side, I implemented a perception-driven landing pipeline in ROS that combined visual target detection and tracking with landing logic and interfaced these autonomy modules with the UAV control stack. This work strengthened my hardware–software integration capabilities through end-to-end development involving sensor and actuator integration, ROS messaging, and debugging of robotic communication and control loops during experimental testing."
+              description="Conducted research on autonomous UAV precision landing using Python, ROS, and computer vision. Built and integrated the UAV platform and developed a perception-driven landing pipeline connecting target detection and tracking with the vehicle control stack."
               projectUrl="/projects/ipreuc"
             />
 
@@ -160,7 +160,7 @@ const Index = () => {
               year="March 2018 - July 20219"
               title="Undergraduate Researcher"
               organization="University of Santiago of Chile"
-              description="I worked as a research assistant to Prof. Juan Francisco Fuentealba, contributing to experimental studies on fracture behavior in isotropic and anisotropic materials. My work involved designing and implementing controlled laboratory experiments to investigate crack propagation mechanisms. I built a dedicated test bench for soft-glass fracture experiments, enabling repeatable testing conditions and precise observation of fracture dynamics. Through these experiments, I analyzed fracture paths to infer the minimum-energy trajectories governing crack propagation, gaining experience in experimental design, mechanical testing, and the physical modeling of material failure processes."
+              description="Conducted experimental research on fracture behavior in isotropic and anisotropic materials. Designed and built a dedicated test bench and investigated crack propagation paths to study the minimum-energy trajectories governing fracture."
               projectUrl="/projects/ipreusach"
             />
           </div>
