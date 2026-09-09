@@ -1,0 +1,108 @@
+import { Link } from "react-router-dom";
+
+const xAutomation = () => {
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      <div className="max-w-5xl mx-auto px-6 py-16">
+
+        <Link
+          to="/#experience"
+          className="text-accent hover:underline inline-block mb-10"
+        >
+          ← Back to portfolio
+        </Link>
+
+        <div className="mb-12">
+          <p className="text-accent font-mono mb-3">
+            2025 - Present
+          </p>
+
+          <h1 className="text-5xl font-bold mb-4">
+            Robotics Autonomy Project Engineer
+          </h1>
+
+          <p className="text-xl text-muted-foreground">
+            Autonomous and telecomanded robotic systems in underground and open-pit environments
+          </p>
+        </div>
+
+        <img
+          src="/images/projects/robotx/wamv.jpg"
+          alt="WAM-V and autonomous UAV"
+          className="w-full rounded-lg mb-12"
+        />
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-5">
+            <span className="text-accent">//</span> Overview
+          </h2>
+
+          <p>
+           Development and implementation of control and navigation systems for the RoboPrimer robot, designed for autonomous operation in open-pit mining. My responsibilities included programming navigation algorithms using ROS, integrating and configuring sensors such as LiDAR and Trimble GNSS systems for precise georeferencing, coordinate surveying and validation, and generating operational maps. I also worked on programming and diagnosing PLCs and industrial control systems, ensuring proper communication between the robot's various subsystems. I developed technical procedures and operating manuals for commissioning, operation, and maintenance, including sensor validation, error management, and field operating protocols. Additionally, for the UG remote-controlled robot for underground mining, I performed testing and validation of telecommunications links and participated in the design and implementation of a semi-automatic arm for loading faces, which is currently deployed in mining operations, contributing to improved safety and operational efficiency.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-5">
+            <span className="text-accent">//</span> Technical Work
+          </h2>
+
+          <p className="text-muted-foreground leading-relaxed">
+            The project involved state estimation, visual target
+            detection and tracking, guidance and control, GNSS
+            integration, onboard camera processing, and communication
+            with the vessel autonomy stack.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold mb-5">
+            <span className="text-accent">//</span> Technologies
+          </h2>
+
+          <div className="flex flex-wrap gap-3">
+            {[
+              "Python",
+              "ROS2",
+              "Computer Vision",
+              "GNSS",
+              "PLC",
+              "Rajant",
+              "Autonomous Systems",
+            ].map((tech) => (
+              <span
+                key={tech}
+                className="border border-border rounded-md px-3 py-2 text-sm"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-3xl font-bold mb-6">
+            <span className="text-accent">//</span> Gallery
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            <img
+              src="/images/projects/robotx/drone.jpg"
+              alt="RobotX UAV"
+              className="rounded-lg w-full"
+            />
+
+            <img
+              src="/images/projects/robotx/landing.jpg"
+              alt="Precision landing testing"
+              className="rounded-lg w-full"
+            />
+          </div>
+        </section>
+
+      </div>
+    </main>
+  );
+};
+
+export default xAutomation;
