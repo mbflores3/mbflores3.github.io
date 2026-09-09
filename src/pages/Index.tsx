@@ -104,7 +104,7 @@ const Index = () => {
               year="March 2025 - Present"
               title="Robotics Autonomy Project Engineer"
               organization="Enaex Robotics"
-              description="Developed and integrated autonomous navigation and control systems for mining robots operating in open-pit and underground environments. Worked with ROS, LiDAR, GNSS, industrial control systems, and field validation, contributing to autonomous and teleoperated robotic systems deployed in real mining operations."
+              description="Worked on the autonomy development of two robotic systems for mining explosive-loading operations: an open-pit platform focused on autonomous navigation and an underground platform focused on semi-autonomous face-loading operations. My work involved robotics software architecture, sensor and communication-system integration, GNSS, CAN networks, PLC control logic, and field-system robustness."
               projectUrl="/projects/enaexrobotics"
             />
 
