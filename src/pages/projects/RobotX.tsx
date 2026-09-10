@@ -139,7 +139,7 @@ const RobotX = () => {
             </div>
 
             <img
-              src="/images/research-uav.jpg"
+              src="/images/research-uav.jpeg"
               alt="UAV used for undergraduate precision landing research"
               className="rounded-lg w-full"
             />
@@ -150,13 +150,13 @@ const RobotX = () => {
           <div className="grid md:grid-cols-2 gap-6 mt-8">
 
             <img
-              src="/images/research-uav-build.jpg"
+              src="/images/research-uav-build.jpeg"
               alt="Experimental UAV platform development"
               className="rounded-lg w-full h-72 object-cover"
             />
 
             <img
-              src="/images/opencv-landing.png"
+              src="/images/opencv-landing1.jpeg"
               alt="OpenCV target detection for UAV precision landing"
               className="rounded-lg w-full h-72 object-cover"
             />
