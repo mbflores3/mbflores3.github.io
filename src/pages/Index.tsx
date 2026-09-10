@@ -128,7 +128,7 @@ const Index = () => {
               year="February 2024 - March 2025"
               title="Electronics Design Engineer"
               organization="2xAutomation Inc."
-              description="Designed embedded electronic systems and multilayer PCBs for industrial applications, covering schematic design, PCB layout, communication interfaces, power architectures, EMC/EMI considerations, manufacturing release, and hardware validation."
+              description="Designed custom embedded electronic systems and PCBs from customer requirements through manufacturing release. My work included schematic design, component selection, power and motor-control circuitry, RS-485/RS-232/Ethernet/USB interfaces, PCB layout and routing in Altium Designer, and fabrication-file verification for production."
               projectUrl="/projects/xautomation"
             />
             
