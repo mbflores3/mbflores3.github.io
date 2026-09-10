@@ -222,7 +222,7 @@ const RobotX = () => {
             {/* BlueROV */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/robotx/bluerov.jpg"
+                src="/images/bluerov.jpeg"
                 alt="BlueROV underwater robotic platform"
                 className="w-full h-64 object-cover"
               />
