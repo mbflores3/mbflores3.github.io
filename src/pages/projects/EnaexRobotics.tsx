@@ -266,7 +266,7 @@ const EnaexRobotics = () => {
             />
 
             <img
-              src="/images/projects/enaex/underground-operation.jpg"
+              src="/images/underground-operation.jpeg"
               alt="Underground robotic operation"
               className="rounded-lg w-full h-80 object-cover"
             />
