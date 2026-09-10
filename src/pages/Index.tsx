@@ -144,7 +144,7 @@ const Index = () => {
               year="December 2022 - March 2023"
               title="Robotics Operation Engineer"
               organization="Mariscope SpA"
-              description="Built, maintained, and operated ROVs for underwater inspection missions in Patagonia. Worked on electronics troubleshooting, system integration, power systems, topside equipment, and field operations to maintain reliable robotic operation in demanding marine environments."
+              description="Maintained, repaired, and operated tethered ROV systems for underwater inspections, focusing on electronics reliability, RS-485 communications, power systems, and rapid field troubleshooting. I later led ROV operations during an approximately 24-day vessel-based inspection campaign across the Strait of Magellan and Patagonian fjords."
               projectUrl="/projects/mariscope"
             />
 
@@ -152,8 +152,8 @@ const Index = () => {
               year="July 2021 - March 2022"
               title="Undergraduate Researcher"
               organization="Pontifical Catholic University of Chile"
-              description="Conducted research on autonomous UAV precision landing using Python, ROS, and computer vision. Built and integrated the UAV platform and developed a perception-driven landing pipeline connecting target detection and tracking with the vehicle control stack."
-              projectUrl="/projects/ipreuc"
+              description="Conducted undergraduate research on autonomous UAV precision landing under the supervision of Prof. Giancarlo Troni. Built and integrated a custom UAV platform and developed a computer-vision-based landing pipeline using Python, ROS, and OpenCV. The research later supported my work with Team Caleuche for Maritime RobotX 2022."
+              projectUrl="/projects/robotx"
             />
 
             <TimelineItem
