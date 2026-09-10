@@ -94,7 +94,7 @@ const EnaexRobotics = () => {
             {/* Open Pit */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/enaex/open-pit-robot.jpeg"
+                src="/images/open-pit-robot.jpeg"
                 alt="Open-pit autonomous robotic platform"
                 className="w-full h-64 object-cover"
               />
@@ -119,7 +119,7 @@ const EnaexRobotics = () => {
             {/* Underground */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/enaex/underground-robot.jpeg"
+                src="/images/underground-robot.jpeg"
                 alt="Underground robotic platform"
                 className="w-full h-64 object-cover"
               />
