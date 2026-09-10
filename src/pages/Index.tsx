@@ -133,10 +133,10 @@ const Index = () => {
             />
             
             <TimelineItem
-              year="July 2022 - Nov 2023"
+              year="2022 - 2023 / 2026 - Present"
               title="Lead UAV Engineer"
               organization="Caleuche UC"
-              description="Developed autonomous precision-landing capabilities for a UAV operating from a moving WAM-V surface vessel for the Maritime RobotX Challenge. Worked on perception, target tracking, state estimation, guidance/control, and integration with the vessel's autonomous sensor stack."
+              description="Developed robotic systems for the international Maritime RobotX competition across two project stages: a custom UAV with autonomous precision landing on a WAM-V in 2022, and position and velocity control for a BlueROV in 2026. The work spans aerial, surface, and underwater robotics, hardware integration, perception, and control."
               projectUrl="/projects/robotx"
             />
 
