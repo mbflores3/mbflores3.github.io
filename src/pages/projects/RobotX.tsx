@@ -46,7 +46,7 @@ const RobotX = () => {
 
         {/* Hero */}
         <img
-          src="/images/projects/robotx/robotx-hero.jpg"
+          src="/images/caleuche1.png"
           alt="Team Caleuche robotic platforms for Maritime RobotX"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
