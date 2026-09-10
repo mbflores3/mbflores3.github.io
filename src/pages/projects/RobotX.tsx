@@ -197,7 +197,7 @@ const RobotX = () => {
             {/* UAV */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/robotx/uav-platform.jpg"
+                src="/images/Caleuche2.png"
                 alt="Custom UAV developed for Maritime RobotX"
                 className="w-full h-64 object-cover"
               />
