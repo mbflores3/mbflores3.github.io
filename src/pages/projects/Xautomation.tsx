@@ -45,7 +45,7 @@ const Xautomation = () => {
 
         {/* Hero */}
         <img
-          src="/images/pcb-hero1.jpeg"
+          src="/images/pcb-hero3.jpeg"
           alt="Custom PCB developed using Altium Designer"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
