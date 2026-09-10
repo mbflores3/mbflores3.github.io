@@ -43,7 +43,7 @@ const EnaexRobotics = () => {
 
         {/* Hero image */}
         <img
-          src="/images/projects/enaex/enaex-hero.jpg"
+          src="/images/enaex-hero.jpeg"
           alt="Enaex robotic system operating in a mining environment"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
