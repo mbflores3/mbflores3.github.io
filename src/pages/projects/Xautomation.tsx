@@ -45,7 +45,7 @@ const Xautomation = () => {
 
         {/* Hero */}
         <img
-          src="/images/projects/xautomation/pcb-hero.jpg"
+          src="/images/pcb-hero1.jpeg"
           alt="Custom PCB developed using Altium Designer"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
@@ -98,7 +98,7 @@ const Xautomation = () => {
             {/* Schematic */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/xautomation/schematic.jpg"
+                src="/images/schematic.png"
                 alt="Electronic schematic design"
                 className="w-full h-64 object-cover"
               />
@@ -124,7 +124,7 @@ const Xautomation = () => {
             {/* PCB */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/xautomation/pcb-layout.jpg"
+                src="/images/pcb-layout.png"
                 alt="PCB routing in Altium Designer"
                 className="w-full h-64 object-cover"
               />
@@ -150,7 +150,7 @@ const Xautomation = () => {
             {/* Interfaces */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/xautomation/interfaces.jpg"
+                src="/images/scheme3.png"
                 alt="Communication and external interfaces on PCB"
                 className="w-full h-64 object-cover"
               />
@@ -175,7 +175,7 @@ const Xautomation = () => {
             {/* Manufacturing */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/xautomation/manufacturing.jpg"
+                src="/images/fab2.png"
                 alt="PCB manufacturing documentation"
                 className="w-full h-64 object-cover"
               />
