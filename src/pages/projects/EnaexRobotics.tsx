@@ -119,7 +119,7 @@ const EnaexRobotics = () => {
             {/* Underground */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/underground-robot.jpeg"
+                src="/images/field-operation-2.jpeg"
                 alt="Underground robotic platform"
                 className="w-full h-64 object-cover"
               />
@@ -254,7 +254,7 @@ const EnaexRobotics = () => {
             />
 
             <img
-              src="/images/field-operation-2.jpg"
+              src="/images/underground-robot.jpg"
               alt="Robotic system during mining field testing"
               className="rounded-lg w-full h-80 object-cover"
             />
