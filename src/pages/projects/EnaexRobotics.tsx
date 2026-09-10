@@ -248,19 +248,19 @@ const EnaexRobotics = () => {
           <div className="grid md:grid-cols-2 gap-6">
 
             <img
-              src="/images/projects/enaex/field-operation-1.jpg"
+              src="/images/field-operation-1.jpg"
               alt="Field operation with Enaex robotic platform"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/enaex/field-operation-2.jpg"
+              src="/images/field-operation-2.jpg"
               alt="Robotic system during mining field testing"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/enaex/navigation-system.jpg"
+              src="/images/navigation-system.jpeg"
               alt="Autonomous navigation system"
               className="rounded-lg w-full h-80 object-cover"
             />
