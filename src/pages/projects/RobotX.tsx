@@ -156,7 +156,7 @@ const RobotX = () => {
             />
 
             <img
-              src="/images/projects/robotx/opencv-landing.jpg"
+              src="/images/projects/robotx/opencv-landing.png"
               alt="OpenCV target detection for UAV precision landing"
               className="rounded-lg w-full h-72 object-cover"
             />
