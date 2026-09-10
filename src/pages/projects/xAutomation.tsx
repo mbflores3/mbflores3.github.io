@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const xAutomation = () => {
+const Xautomation = () => {
   const technologies = [
     "Altium Designer",
     "EMS Magician PCB Analyzer",
@@ -358,4 +358,4 @@ const xAutomation = () => {
   );
 };
 
-export default xAutomation;
+export default Xautomation;
