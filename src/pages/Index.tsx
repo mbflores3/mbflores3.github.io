@@ -120,7 +120,7 @@ const Index = () => {
               year="December 2025 - July 2025"
               title="Researcher"
               organization="TarLab"
-              description="Conducted research on computer vision and autonomous perception for forest environments using high-resolution aerial imagery. Developed data-processing, training, and evaluation pipelines for tree crown detection and instance segmentation using deep-learning and geospatial tools."
+              description="Conducted research on individual tree crown detection and delineation from UAV imagery, covering semi-supervised annotation, Canopy Height Model generation, pretrained-model benchmarking, fine-tuning, and training with synthetic labels. The work investigates model generalization and data-efficient approaches for adapting forest perception models to new aerial surveys."
               projectUrl="/projects/tarlab"
             />
             
