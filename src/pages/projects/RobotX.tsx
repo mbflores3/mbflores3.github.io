@@ -46,7 +46,7 @@ const RobotX = () => {
 
         {/* Hero */}
         <img
-          src="/images/caleuche1.png"
+          src="/images/Caleuche1.png"
           alt="Team Caleuche robotic platforms for Maritime RobotX"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
@@ -139,7 +139,7 @@ const RobotX = () => {
             </div>
 
             <img
-              src="/images/projects/robotx/research-uav.jpg"
+              src="/images/research-uav.jpg"
               alt="UAV used for undergraduate precision landing research"
               className="rounded-lg w-full"
             />
@@ -150,13 +150,13 @@ const RobotX = () => {
           <div className="grid md:grid-cols-2 gap-6 mt-8">
 
             <img
-              src="/images/projects/robotx/research-uav-build.jpg"
+              src="/images/research-uav-build.jpg"
               alt="Experimental UAV platform development"
               className="rounded-lg w-full h-72 object-cover"
             />
 
             <img
-              src="/images/projects/robotx/opencv-landing.png"
+              src="/images/opencv-landing.png"
               alt="OpenCV target detection for UAV precision landing"
               className="rounded-lg w-full h-72 object-cover"
             />
