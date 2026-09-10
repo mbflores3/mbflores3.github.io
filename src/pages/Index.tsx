@@ -156,13 +156,6 @@ const Index = () => {
               projectUrl="/projects/robotx"
             />
 
-            <TimelineItem
-              year="March 2018 - July 20219"
-              title="Undergraduate Researcher"
-              organization="University of Santiago of Chile"
-              description="Conducted experimental research on fracture behavior in isotropic and anisotropic materials. Designed and built a dedicated test bench and investigated crack propagation paths to study the minimum-energy trajectories governing fracture."
-              projectUrl="/projects/ipreusach"
-            />
           </div>
         </section>
 
