@@ -94,7 +94,7 @@ const EnaexRobotics = () => {
             {/* Open Pit */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/enaex/open-pit-robot.jpg"
+                src="/images/projects/enaex/open-pit-robot.jpeg"
                 alt="Open-pit autonomous robotic platform"
                 className="w-full h-64 object-cover"
               />
