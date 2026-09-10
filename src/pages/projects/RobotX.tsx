@@ -370,6 +370,12 @@ const RobotX = () => {
           <div className="grid md:grid-cols-2 gap-6">
 
             <img
+              src="/images/opencv-landing.png"
+              alt="UAV precision landing development"
+              className="rounded-lg w-full h-80 object-cover"
+            />
+            
+            <img
               src="/images/Caleuche4.png"
               alt="UAV set up befor comp"
               className="rounded-lg w-full h-80 object-cover"
@@ -378,12 +384,6 @@ const RobotX = () => {
             <img
               src="/images/Caleuche3.png"
               alt="UAV operating together with the WAM-V"
-              className="rounded-lg w-full h-80 object-cover"
-            />
-
-            <img
-              src="/images/opencv-landing.png"
-              alt="UAV precision landing development"
               className="rounded-lg w-full h-80 object-cover"
             />
 
