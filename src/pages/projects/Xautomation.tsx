@@ -327,25 +327,25 @@ const Xautomation = () => {
           <div className="grid md:grid-cols-2 gap-6">
 
             <img
-              src="/images/projects/xautomation/schematic-detail.jpg"
+              src="/images/scheme2.png"
               alt="Electronic schematic development"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/xautomation/routing-detail.jpg"
+              src="/images/components1.png"
               alt="PCB routing and component placement"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/xautomation/pcb-render.jpg"
+              src="/images/pcb6.jpeg"
               alt="3D PCB visualization"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/xautomation/assembled-pcb.jpg"
+              src="/images/pcb5.jpeg"
               alt="Manufactured and assembled PCB"
               className="rounded-lg w-full h-80 object-cover"
             />
