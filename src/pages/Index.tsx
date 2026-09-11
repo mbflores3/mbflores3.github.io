@@ -391,7 +391,7 @@ const Index = () => {
         {/* Sports Section */}
         <section id="sports" className="py-12 section-fade-in">
           <h2 className="text-4xl font-bold mb-8 text-foreground">
-            <span className="text-accent">//</span> Book Recs
+            <span className="text-accent">//</span> Sports
           </h2>
           <div className="terminal-border bg-card/50 p-8 rounded mb-8">
             <p className="text-xl text-muted-foreground mb-6">
