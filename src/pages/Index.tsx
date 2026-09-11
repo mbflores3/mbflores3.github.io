@@ -398,8 +398,8 @@ const Index = () => {
               Sports that keep me humble, constantly learning, and give me a different perspective on the world
             </p>
             <ul className="list-disc list-inside space-y-2 text-foreground">
-              <li><BookTooltip title="Boxeo"><strong>Boxeo</strong></BookTooltip></li>
-              <li><BookTooltip title="Jiujtsu"><strong>Jiujitsu</strong></BookTooltip></li>
+              <li><BookTooltip title="Boxing"><strong>Boxing</strong></BookTooltip></li>
+              <li><BookTooltip title="Jiujitsu"><strong>Jiujitsu</strong></BookTooltip></li>
               <li><BookTooltip title="Mma"><strong>Mma</strong></BookTooltip></li>
             </ul>
           </div>
