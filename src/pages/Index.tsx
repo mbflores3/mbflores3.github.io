@@ -274,7 +274,7 @@ const Index = () => {
                     description="Fine-tuning of the BETO model (BERT-based model for Spanish) to classify sentences into school subjects. It includes training, evaluation, and integration into a local app."
                     tech={['Python', 'PyTorch', 'Transformers', 'JavaScript', 'HTML', 'CSS', 'TypeScript', 'Flask']}
                     github="https://github.com/csierr/finetuning-beto-for-spanish-text-classification"
-                    image="/images/finetuning-beto.png"
+                    image="/images/simLAD.png"
                   />
                 </div>
               </CarouselItem>
