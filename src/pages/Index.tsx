@@ -9,14 +9,9 @@ import { ToolCard } from '@/components/ToolCard';
 
 // BookTooltip component for showing book cover on hover
 const bookImages: Record<string, string> = {
-  'Designing Machine Learning Systems': '/images/designing-ml-systems.jpg',
-  'AI Engineering': '/images/ai-engineering.jpg',
-  'Python for Data Analysis': '/images/python-for-data-analysis.jpg',
-  'Grokking Algorithms': '/images/grokking-algorithms.jpg',
-  'A Court of Thorns and Roses': '/images/acotar.jpg',
-  'Before the Coffee Gets Cold': '/images/before-coffee.jpg',
-  'Fairy Tale': '/images/fairy-tale.jpg',
-  'Fairy Oak': '/images/fairy-oak.jpg',
+  'Boxing': '/images/boxeo.jpeg',
+  'Jiujitsu': '/images/jiujitsu.jpeg',
+  'Mma': '/images/mma.jpeg',
 };
 
 function BookTooltip({ title, children }: { title: string; children: React.ReactNode }) {
@@ -393,38 +388,19 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Book Recommendations Section */}
-        <section id="books" className="py-12 section-fade-in">
+        {/* Sports Section */}
+        <section id="sports" className="py-12 section-fade-in">
           <h2 className="text-4xl font-bold mb-8 text-foreground">
             <span className="text-accent">//</span> Book Recs
           </h2>
           <div className="terminal-border bg-card/50 p-8 rounded mb-8">
             <p className="text-xl text-muted-foreground mb-6">
-              A few books that I've loved and that have shaped how I think about engineering and about building systems that actually work in the real world:
+              Sports that keep me humble, constantly learning, and give me a different perspective on the world
             </p>
             <ul className="list-disc list-inside space-y-2 text-foreground">
-              <li><BookTooltip title="Designing Machine Learning Systems"><strong>Designing Machine Learning Systems by Chip Huyen</strong></BookTooltip></li>
-              <li><BookTooltip title="AI Engineering"><strong>AI Engineering by Chip Huyen</strong></BookTooltip></li>
-              <li><BookTooltip title="Python for Data Analysis"><strong>Python for Data Analysis by Wes McKinney</strong></BookTooltip></li>
-              <li><BookTooltip title="Grokking Algorithms"><strong>Grokking Algorithms by Aditya Bhargava</strong></BookTooltip></li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Off-Topic Reads Section */}
-        <section id="off-topic-books" className="py-12 section-fade-in">
-          <h2 className="text-4xl font-bold mb-8 text-foreground">
-            <span className="text-accent">//</span> Off-topic Reads
-          </h2>
-          <div className="terminal-border bg-card/50 p-8 rounded mb-8">
-            <p className="text-xl text-muted-foreground mb-6">
-              Not everything I read is about code, here are a some non-technical reads that I also really enjoyed:
-            </p>
-            <ul className="list-disc list-inside space-y-2 text-foreground">
-            <li><BookTooltip title="A Court of Thorns and Roses"><strong>A Court of Thorns and Roses series by Sarah J. Maas</strong></BookTooltip></li>
-            <li><BookTooltip title="Before the Coffee Gets Cold"><strong>Before the Coffee Gets Cold series by Toshikazu Kawaguchi</strong></BookTooltip></li>
-            <li><BookTooltip title="Fairy Tale"><strong>Fairy Tale by Stephen King</strong></BookTooltip></li>
-            <li><BookTooltip title="Fairy Oak"><strong>Fairy Oak series by Elisabetta Gnone</strong></BookTooltip></li>
+              <li><BookTooltip title="Boxeo"><strong>Boxeo</strong></BookTooltip></li>
+              <li><BookTooltip title="Jiujtsu"><strong>Jiujitsu</strong></BookTooltip></li>
+              <li><BookTooltip title="Mma"><strong>Mma</strong></BookTooltip></li>
             </ul>
           </div>
         </section>
