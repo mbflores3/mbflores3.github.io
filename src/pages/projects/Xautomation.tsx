@@ -339,13 +339,13 @@ const Xautomation = () => {
             />
 
             <img
-              src="/images/pcb6.jpeg"
+              src="/images/pcb5.jpeg"
               alt="3D PCB visualization"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/pcb5.jpeg"
+              src="/images/pcb6.jpeg"
               alt="Manufactured and assembled PCB"
               className="rounded-lg w-full h-80 object-cover"
             />
