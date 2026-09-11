@@ -43,7 +43,7 @@ const Mariscope = () => {
 
         {/* Hero */}
         <img
-          src="/images/projects/mariscope/mariscope-hero.jpg"
+          src="/images/mariscope-hero.jpeg"
           alt="ROV deployment during underwater inspection operations in Patagonia"
           className="w-full max-h-[520px] object-cover rounded-lg mb-16"
         />
@@ -94,7 +94,7 @@ const Mariscope = () => {
             {/* Reliability */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/mariscope/rov-maintenance.jpg"
+                src="/images/rov-maintenance.jpeg"
                 alt="ROV maintenance and electronics troubleshooting"
                 className="w-full h-64 object-cover"
               />
@@ -119,7 +119,7 @@ const Mariscope = () => {
             {/* Field operations */}
             <div className="border border-border rounded-lg overflow-hidden">
               <img
-                src="/images/projects/mariscope/field-deployment.jpg"
+                src="/images/field-deployment.jpeg"
                 alt="ROV deployment from vessel in Patagonia"
                 className="w-full h-64 object-cover"
               />
@@ -255,7 +255,7 @@ const Mariscope = () => {
             </div>
 
             <img
-              src="/images/projects/mariscope/patagonia-operation.jpg"
+              src="/images/patagonia-operation.jpeg"
               alt="ROV inspection campaign in the Strait of Magellan"
               className="rounded-lg w-full"
             />
@@ -334,25 +334,25 @@ const Mariscope = () => {
           <div className="grid md:grid-cols-2 gap-6">
 
             <img
-              src="/images/projects/mariscope/rov.jpg"
+              src="/images/rov.jpeg"
               alt="Remotely Operated Vehicle"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/mariscope/deployment.jpg"
+              src="/images/deployment.jpeg"
               alt="ROV deployment from inspection vessel"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/mariscope/underwater-inspection.jpg"
+              src="/images/underwater-inspection.jpeg"
               alt="Underwater structural inspection"
               className="rounded-lg w-full h-80 object-cover"
             />
 
             <img
-              src="/images/projects/mariscope/patagonia.jpg"
+              src="/images//patagonia.jpeg"
               alt="Inspection operations in Patagonia"
               className="rounded-lg w-full h-80 object-cover"
             />
