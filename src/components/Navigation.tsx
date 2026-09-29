@@ -10,7 +10,7 @@ const navItems = [
   { id: 'portfolio', label: 'Portfolio' },
   { id: 'publications', label: 'Publications' },
   { id: 'teaching', label: 'Teaching' },
-  { id: 'books', label: 'Book Recs' },
+  { id: 'sports', label: 'Sports' },
   { id: 'contact', label: 'Contact' },
 ];
 
