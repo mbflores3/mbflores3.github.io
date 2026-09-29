@@ -104,7 +104,7 @@ const Index = () => {
             />
 
             <TimelineItem
-              year="January 2025 - September 2025"
+              year="January 2025 - Present"
               title="Researcher"
               organization="SPAE Group"
               description="Developed and integrated a LiDAR-equipped UAV platform and its ROS 2/Gazebo simulation, including custom mechanical integration and physically informed inertial models. Collaborated on deep reinforcement learning research for navigation under uncertain occupancy maps and currently investigate probabilistic NMPC + HOCBF methods for safe UAV navigation under uncertainty."
@@ -112,7 +112,7 @@ const Index = () => {
             />
 
             <TimelineItem
-              year="December 2025 - July 2025"
+              year="December 2025 - Present"
               title="Researcher"
               organization="TarLab"
               description="Conducted research on individual tree crown detection and delineation from UAV imagery, covering semi-supervised annotation, Canopy Height Model generation, pretrained-model benchmarking, fine-tuning, and training with synthetic labels. The work investigates model generalization and data-efficient approaches for adapting forest perception models to new aerial surveys."
