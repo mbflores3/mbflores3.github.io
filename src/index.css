@@ -18,10 +18,10 @@ All colors MUST be HSL.
     --popover: 220 10% 100%;
     --popover-foreground: 220 8% 12%;
 
-    /* Red Accent (Actualizado a #8e1616) */
-    --primary: 0 72% 32%;
-    --primary-foreground: 0 0% 100%; /* Cambiado a blanco para que el texto sea legible sobre el rojo oscuro */
-    --primary-glow: 0 72% 45%;       /* Un rojo un poco más brillante para el efecto 
+    /* Red Accent (Actualizado a #b01a1a) */
+    --primary: 0 74% 40%;
+    --primary-foreground: 0 0% 100%; /* Mantenido en blanco para máxima legibilidad */
+    --primary-glow: 0 74% 53%;       /* Un rojo más brillante para el efecto de resplandor */
 
     /* Light Secondary */
     --secondary: 220 10% 98%;
@@ -71,10 +71,10 @@ All colors MUST be HSL.
     --popover: 220 18% 10%;
     --popover-foreground: 210 15% 92%;
 
-    /* Red Accent (Actualizado a #8e1616) */
-    --primary: 0 72% 32%;
-    --primary-foreground: 0 0% 100%; /* Cambiado a blanco para que el texto sea legible sobre el rojo oscuro */
-    --primary-glow: 0 72% 45%;       /* Un rojo un poco más brillante para el efecto 
+    /* Red Accent (Actualizado a #b01a1a) */
+    --primary: 0 74% 40%;
+    --primary-foreground: 0 0% 100%; /* Mantenido en blanco para máxima legibilidad */
+    --primary-glow: 0 74% 53%;       /* Un rojo más brillante para el efecto de resplandor */
 
     /* Dark Secondary */
     --secondary: 220 15% 15%;
