@@ -574,7 +574,7 @@ const Index = () => {
         >
 
           <h2 className="text-4xl font-bold mb-8 text-foreground">
-            <span className="text-accent">//</span> Teaching
+            <span className="text-accent">//</span> Tutoring
           </h2>
 
 
