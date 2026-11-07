@@ -476,7 +476,32 @@ const Index = () => {
 
         </section>
 
-
+        {/* LAD */}
+        <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
+        
+          <h3 className="text-xl font-semibold text-primary mb-2">
+            L.A.D: A Visual ROS 2 and Nav2 Platform for Learning, Prototyping,
+            and Reproducing Autonomous Vehicle Software Architectures
+          </h3>
+        
+          <p className="text-muted-foreground mb-3">
+            UAI Autonomous Vehicle Research · Research manuscript
+          </p>
+        
+          <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+            Presents L.A.D., a visual programming platform for designing,
+            prototyping, and reproducing autonomous vehicle software
+            architectures using ROS 2 and Nav2. The platform enables users to
+            compose robotics functionality through reusable visual blocks while
+            preserving the underlying ROS 2 communication and autonomy structure.
+          </p>
+        
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <FileText size={16} />
+            <span>Research publication</span>
+          </div>
+        
+        </div>
 
         {/* ==================================================
             STUDIES
