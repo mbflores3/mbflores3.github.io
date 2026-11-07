@@ -26,13 +26,12 @@ import { Link } from "react-router-dom";
 
 import { Navigation } from "@/components/Navigation";
 import { ProjectCard } from "@/components/ProjectCard";
-import { TimelineItem } from "@/components/TimelineItem";
 import { ToolCard } from "@/components/ToolCard";
 
 
-// ------------------------------------------------------
-// Sports image tooltip
-// ------------------------------------------------------
+// ======================================================
+// SPORTS TOOLTIP
+// ======================================================
 
 const bookImages: Record<string, string> = {
   Boxing: "/images/boxeo.jpeg",
@@ -75,9 +74,112 @@ function BookTooltip({
 }
 
 
-// ------------------------------------------------------
-// Main page
-// ------------------------------------------------------
+// ======================================================
+// FEATURED WORK DATA
+// ======================================================
+
+const featuredWork = [
+  {
+    period: "2025 — Present",
+    category: "FIELD ROBOTICS · AUTONOMY",
+    title: "Autonomous Mining Robotics",
+    organization: "Enaex Robotics",
+    description:
+      "Development of autonomous and semi-autonomous robotic systems for open-pit and underground explosive-loading operations, including navigation, sensing, industrial communications, and field deployment.",
+    tech: ["ROS", "GNSS", "LiDAR", "PLC"],
+    image: "/images/projects/enaex/enaex-hero.jpg",
+    url: "/projects/enaexrobotics",
+  },
+
+  {
+    period: "2025 — Present",
+    category: "AUTONOMY RESEARCH · UAV",
+    title: "UAV Navigation Under Uncertainty",
+    organization: "SPAE Group",
+    description:
+      "Development of a LiDAR-equipped UAV research platform and ROS 2/Gazebo simulation for learning- and model-based autonomous navigation under uncertain environments.",
+    tech: ["ROS 2", "PX4", "LiDAR", "NMPC"],
+    image: "/images/projects/spae/spae-hero.jpg",
+    url: "/projects/spaegroup",
+  },
+
+  {
+    period: "2025 — Present",
+    category: "PERCEPTION · MACHINE LEARNING",
+    title: "Tree Crown Detection & Delineation",
+    organization: "TarLab",
+    description:
+      "Research on tree crown detection and instance segmentation from UAV imagery through dataset creation, pretrained-model benchmarking, fine-tuning, and synthetic-label training.",
+    tech: ["Python", "PyTorch", "UAV Imagery", "QGIS"],
+    image: "/images/projects/tarlab/tarlab-hero.jpg",
+    url: "/projects/tarlab",
+  },
+
+  {
+    period: "2026 — Present",
+    category: "AUTONOMOUS VEHICLES · RESEARCH",
+    title: "Autonomous Vehicle Research",
+    organization: "Universidad Adolfo Ibáñez",
+    description:
+      "Research focused on autonomous vehicle systems, integrating robotics, perception, control, and autonomous navigation for intelligent ground vehicles.",
+    tech: ["Autonomous Vehicles", "ROS 2", "Perception", "Control"],
+    image: "/images/projects/uai/uai-hero.jpg",
+    url: "/projects/uai",
+  },
+
+  {
+    period: "2024 — 2025",
+    category: "ELECTRONICS · EMBEDDED SYSTEMS",
+    title: "Custom PCB & Embedded Electronics",
+    organization: "2X Automation Inc.",
+    description:
+      "Designed custom electronic systems and PCBs from customer requirements through schematic design, PCB routing, communication interfaces, manufacturing verification, and production release.",
+    tech: ["Altium", "PCB Design", "RS-485", "Ethernet"],
+    image: "/images/projects/xautomation/pcb-hero.jpg",
+    url: "/projects/xautomation",
+  },
+
+  {
+    period: "2022 · 2026",
+    category: "MULTI-PLATFORM ROBOTICS",
+    title: "Maritime RobotX",
+    organization: "Team Caleuche UC",
+    description:
+      "Development of aerial, surface, and underwater robotic systems for the international Maritime RobotX competition, including UAV precision landing and BlueROV motion control.",
+    tech: ["ROS", "OpenCV", "UAV", "BlueROV"],
+    image: "/images/projects/robotx/robotx-hero.jpg",
+    url: "/projects/robotx",
+  },
+
+  {
+    period: "2022 — 2023",
+    category: "UNDERWATER · FIELD ROBOTICS",
+    title: "ROV Field Operations in Patagonia",
+    organization: "Mariscope SpA",
+    description:
+      "Maintenance, troubleshooting, and field deployment of tethered ROV systems for structural underwater inspections across the Strait of Magellan and Patagonian fjords.",
+    tech: ["ROV", "RS-485", "Electronics", "Field Operations"],
+    image: "/images/projects/mariscope/mariscope-hero.jpg",
+    url: "/projects/mariscope",
+  },
+
+  {
+    period: "2021 — 2022",
+    category: "UNDERGRADUATE RESEARCH · UAV",
+    title: "Vision-Based UAV Precision Landing",
+    organization: "Pontifical Catholic University of Chile",
+    description:
+      "Undergraduate research with Prof. Giancarlo Troni on autonomous UAV precision landing using Python, ROS, OpenCV, and a custom-built multirotor platform.",
+    tech: ["Python", "ROS", "OpenCV", "UAV"],
+    image: "/images/projects/robotx/research-uav.jpg",
+    url: "/projects/robotx",
+  },
+];
+
+
+// ======================================================
+// MAIN PAGE
+// ======================================================
 
 const Index = () => {
   return (
@@ -96,7 +198,7 @@ const Index = () => {
 
           <div className="flex flex-col md:flex-row items-start md:items-center gap-8 mb-12">
 
-            {/* Profile picture */}
+            {/* Profile Picture */}
             <div className="w-32 h-32 md:w-40 md:h-40 flex-shrink-0">
 
               <Avatar className="w-full h-full terminal-border bg-card flex items-center justify-center glow-primary">
@@ -114,7 +216,7 @@ const Index = () => {
             </div>
 
 
-            {/* Name / title */}
+            {/* Name / Title */}
             <div className="flex-1">
 
               <h1 className="text-4xl md:text-6xl font-bold mb-3 text-foreground">
@@ -158,21 +260,14 @@ const Index = () => {
           </div>
 
 
-          {/* Hero buttons */}
+          {/* Main Buttons */}
           <div className="flex flex-wrap gap-4">
 
             <a
               href="#featured-work"
               className="px-6 py-3 bg-primary text-primary-foreground rounded glow-primary hover:bg-primary/90 transition-all duration-300 font-semibold"
             >
-              View selected work
-            </a>
-
-            <a
-              href="#experience"
-              className="px-6 py-3 border border-border text-foreground rounded hover:bg-secondary transition-all duration-300"
-            >
-              Experience
+              View work
             </a>
 
             <a
@@ -182,6 +277,13 @@ const Index = () => {
               Publications
             </a>
 
+            <a
+              href="#contact"
+              className="px-6 py-3 border border-border text-foreground rounded hover:bg-secondary transition-all duration-300"
+            >
+              Contact
+            </a>
+
           </div>
 
         </section>
@@ -189,7 +291,7 @@ const Index = () => {
 
 
         {/* ==================================================
-            FEATURED WORK
+            FEATURED WORK & EXPERIENCE
         ================================================== */}
 
         <section
@@ -197,16 +299,16 @@ const Index = () => {
           className="py-12 section-fade-in"
         >
 
-          <div className="mb-8">
+          <div className="mb-10">
 
             <h2 className="text-4xl font-bold mb-3 text-foreground">
               <span className="text-accent">//</span> Featured Work
             </h2>
 
-            <p className="text-muted-foreground max-w-2xl leading-relaxed">
-              Selected robotics and autonomous systems projects spanning field
-              deployment, research, perception, control, and multi-platform
-              autonomy.
+            <p className="text-muted-foreground max-w-3xl leading-relaxed">
+              Selected professional and research experience across autonomous
+              systems, field robotics, perception, control, embedded
+              electronics, and multi-platform robotic systems.
             </p>
 
           </div>
@@ -214,286 +316,86 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-6">
 
+            {featuredWork.map((project) => (
 
-            {/* ENAEX */}
-            <Link
-              to="/projects/enaexrobotics"
-              className="group terminal-border bg-card rounded overflow-hidden hover:glow-primary transition-all duration-300"
-            >
+              <Link
+                key={`${project.organization}-${project.title}`}
+                to={project.url}
+                className="group terminal-border bg-card rounded overflow-hidden hover:glow-primary transition-all duration-300 flex flex-col"
+              >
 
-              <img
-                src="/images/projects/enaex/enaex-hero.jpg"
-                alt="Autonomous mining robotics"
-                className="w-full h-52 object-cover"
-              />
+                {/* Image */}
+                <div className="overflow-hidden">
 
-              <div className="p-6">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-56 object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                  />
 
-                <p className="text-xs text-accent font-mono mb-2">
-                  FIELD ROBOTICS · AUTONOMY
-                </p>
-
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Autonomous Mining Robotics
-                </h3>
-
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Autonomous navigation and semi-autonomous robotic operations
-                  for open-pit and underground mining environments.
-                </p>
-
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {["ROS", "GNSS", "LiDAR", "PLC"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs px-2 py-1 border border-border rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
                 </div>
 
-                <span className="text-sm text-primary group-hover:underline">
-                  View project →
-                </span>
 
-              </div>
+                {/* Content */}
+                <div className="p-6 flex flex-col flex-1">
 
-            </Link>
+                  {/* Period */}
+                  <p className="text-xs text-muted-foreground font-mono mb-2">
+                    {project.period}
+                  </p>
 
 
+                  {/* Category */}
+                  <p className="text-xs text-accent font-mono mb-2">
+                    {project.category}
+                  </p>
 
-            {/* SPAE */}
-            <Link
-              to="/projects/spaegroup"
-              className="group terminal-border bg-card rounded overflow-hidden hover:glow-primary transition-all duration-300"
-            >
 
-              <img
-                src="/images/projects/spae/spae-hero.jpg"
-                alt="Autonomous UAV research"
-                className="w-full h-52 object-cover"
-              />
+                  {/* Title */}
+                  <h3 className="text-xl font-semibold text-foreground mb-1">
+                    {project.title}
+                  </h3>
 
-              <div className="p-6">
 
-                <p className="text-xs text-accent font-mono mb-2">
-                  AUTONOMY RESEARCH · UAV
-                </p>
+                  {/* Organization */}
+                  <p className="text-sm text-primary font-semibold mb-4">
+                    {project.organization}
+                  </p>
 
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  UAV Navigation Under Uncertainty
-                </h3>
 
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  LiDAR-equipped UAV research combining ROS 2/Gazebo
-                  simulation, reinforcement learning, NMPC, and HOCBF
-                  safety constraints.
-                </p>
+                  {/* Description */}
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+                    {project.description}
+                  </p>
 
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {["ROS 2", "PX4", "LiDAR", "NMPC"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs px-2 py-1 border border-border rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+
+                  {/* Technologies */}
+                  <div className="flex flex-wrap gap-2 mb-5">
+
+                    {project.tech.map((tech) => (
+
+                      <span
+                        key={tech}
+                        className="text-xs px-2 py-1 border border-border rounded text-muted-foreground"
+                      >
+                        {tech}
+                      </span>
+
+                    ))}
+
+                  </div>
+
+
+                  {/* View project */}
+                  <span className="text-sm text-primary font-medium group-hover:underline mt-auto">
+                    View work →
+                  </span>
+
                 </div>
 
-                <span className="text-sm text-primary group-hover:underline">
-                  View project →
-                </span>
+              </Link>
 
-              </div>
-
-            </Link>
-
-
-
-            {/* ROBOTX */}
-            <Link
-              to="/projects/robotx"
-              className="group terminal-border bg-card rounded overflow-hidden hover:glow-primary transition-all duration-300"
-            >
-
-              <img
-                src="/images/projects/robotx/robotx-hero.jpg"
-                alt="Team Caleuche Maritime RobotX"
-                className="w-full h-52 object-cover"
-              />
-
-              <div className="p-6">
-
-                <p className="text-xs text-accent font-mono mb-2">
-                  MULTI-PLATFORM ROBOTICS
-                </p>
-
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Maritime RobotX
-                </h3>
-
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  UAV precision landing on an autonomous WAM-V and position
-                  and velocity control for a BlueROV in an international
-                  robotics competition.
-                </p>
-
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {["ROS", "OpenCV", "UAV", "BlueROV"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs px-2 py-1 border border-border rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                <span className="text-sm text-primary group-hover:underline">
-                  View project →
-                </span>
-
-              </div>
-
-            </Link>
-
-
-
-            {/* TARLAB */}
-            <Link
-              to="/projects/tarlab"
-              className="group terminal-border bg-card rounded overflow-hidden hover:glow-primary transition-all duration-300"
-            >
-
-              <img
-                src="/images/projects/tarlab/tarlab-hero.jpg"
-                alt="Tree crown detection from UAV imagery"
-                className="w-full h-52 object-cover"
-              />
-
-              <div className="p-6">
-
-                <p className="text-xs text-accent font-mono mb-2">
-                  PERCEPTION · MACHINE LEARNING
-                </p>
-
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Tree Crown Detection & Delineation
-                </h3>
-
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Benchmarking, fine-tuning, and synthetic-label training for
-                  tree crown detection and segmentation from UAV imagery.
-                </p>
-
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {[
-                    "Python",
-                    "PyTorch",
-                    "UAV Imagery",
-                    "QGIS",
-                  ].map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs px-2 py-1 border border-border rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-
-                <span className="text-sm text-primary group-hover:underline">
-                  View project →
-                </span>
-
-              </div>
-
-            </Link>
-
-          </div>
-
-        </section>
-
-
-
-        {/* ==================================================
-            EXPERIENCE
-        ================================================== */}
-
-        <section
-          id="experience"
-          className="py-12 section-fade-in"
-        >
-
-          <h2 className="text-4xl font-bold mb-8 text-foreground">
-            <span className="text-accent">//</span> Experience
-          </h2>
-
-          <div className="space-y-0">
-
-            <TimelineItem
-              year="March 2025 - Present"
-              title="Robotics Autonomy Project Engineer"
-              organization="Enaex Robotics"
-              description="Worked on the autonomy development of two robotic systems for mining explosive-loading operations: an open-pit platform focused on autonomous navigation and an underground platform focused on semi-autonomous face-loading operations. My work involved robotics software architecture, sensor and communication-system integration, GNSS, CAN networks, PLC control logic, and field-system robustness."
-              projectUrl="/projects/enaexrobotics"
-            />
-
-
-            <TimelineItem
-              year="January 2025 - Present"
-              title="Researcher"
-              organization="SPAE Group"
-              description="Developed and integrated a LiDAR-equipped UAV platform and its ROS 2/Gazebo simulation, including custom mechanical integration and physically informed inertial models. Collaborated on deep reinforcement learning research for navigation under uncertain occupancy maps and currently investigate probabilistic NMPC + HOCBF methods for safe UAV navigation under uncertainty."
-              projectUrl="/projects/spaegroup"
-            />
-
-
-            <TimelineItem
-              year="December 2025 - Present"
-              title="Researcher"
-              organization="TarLab"
-              description="Conducted research on individual tree crown detection and delineation from UAV imagery, covering semi-supervised annotation, Canopy Height Model generation, pretrained-model benchmarking, fine-tuning, and training with synthetic labels. The work investigates model generalization and data-efficient approaches for adapting forest perception models to new aerial surveys."
-              projectUrl="/projects/tarlab"
-            />
-
-
-            <TimelineItem
-              year="February 2024 - March 2025"
-              title="Electronics Design Engineer"
-              organization="2X Automation Inc."
-              description="Designed custom embedded electronic systems and PCBs from customer requirements through manufacturing release. My work included schematic design, component selection, power and motor-control circuitry, RS-485/RS-232/Ethernet/USB interfaces, PCB layout and routing in Altium Designer, and fabrication-file verification for production."
-              projectUrl="/projects/xautomation"
-            />
-
-
-            <TimelineItem
-              year="2022 - 2023 / 2026 - Present"
-              title="Robotics Engineer"
-              organization="Team Caleuche UC"
-              description="Developed robotic systems for the international Maritime RobotX competition across two project stages: a custom UAV with autonomous precision landing on a WAM-V in 2022, and position and velocity control for a BlueROV in 2026. The work spans aerial, surface, and underwater robotics, hardware integration, perception, and control."
-              projectUrl="/projects/robotx"
-            />
-
-
-            <TimelineItem
-              year="December 2022 - March 2023"
-              title="Robotics Operation Engineer"
-              organization="Mariscope SpA"
-              description="Maintained, repaired, and operated tethered ROV systems for underwater inspections, focusing on electronics reliability, RS-485 communications, power systems, and rapid field troubleshooting. I later led ROV operations during an approximately 24-day vessel-based inspection campaign across the Strait of Magellan and Patagonian fjords."
-              projectUrl="/projects/mariscope"
-            />
-
-
-            <TimelineItem
-              year="July 2021 - March 2022"
-              title="Undergraduate Researcher"
-              organization="Pontifical Catholic University of Chile"
-              description="Conducted undergraduate research on autonomous UAV precision landing under the supervision of Prof. Giancarlo Troni. Built and integrated a custom UAV platform and developed a computer-vision-based landing pipeline using Python, ROS, and OpenCV. The research later supported my work with Team Caleuche for Maritime RobotX 2022."
-              projectUrl="/projects/robotx"
-            />
+            ))}
 
           </div>
 
@@ -531,10 +433,10 @@ const Index = () => {
               </p>
 
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                Investigates multispectral image reconstruction using
+                Investigation of multispectral image reconstruction using
                 conditional adversarial networks, with particular attention
-                to the effect of changing illumination conditions on
-                reconstruction performance and robustness.
+                to reconstruction robustness under varying illumination
+                conditions.
               </p>
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -545,7 +447,7 @@ const Index = () => {
             </div>
 
 
-            {/* Occupancy probability */}
+            {/* Occupancy Probability Maps */}
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
 
               <h3 className="text-xl font-semibold text-primary mb-2">
@@ -558,11 +460,9 @@ const Index = () => {
               </p>
 
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                Investigates probabilistic representations of environmental
+                Investigation of probabilistic representations of environmental
                 occupancy for deep reinforcement learning-based autonomous
-                navigation, enabling navigation policies to account for
-                uncertainty rather than relying exclusively on deterministic
-                obstacle representations.
+                navigation in uncertain environments.
               </p>
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -692,7 +592,7 @@ const Index = () => {
                 Pontifical Catholic University of Chile | 2022
               </p>
 
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+              <p className="text-sm text-muted-foreground leading-relaxed">
                 Introduced students to ROS/ROS 2 publisher-subscriber
                 communication through topics, as well as fundamental
                 navigation, perception, and localization techniques.
@@ -712,7 +612,7 @@ const Index = () => {
                 Pontifical Catholic University of Chile | 2023
               </p>
 
-              <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
+              <p className="text-sm text-muted-foreground leading-relaxed">
                 Supported evaluation and grading of assignments, exams, and
                 projects covering closed-loop control methods including PID,
                 root locus, Nyquist analysis, Bode plots, and stability
@@ -741,7 +641,8 @@ const Index = () => {
           </h2>
 
           <p className="text-muted-foreground mb-8">
-            Additional robotics, control, perception, and software projects.
+            Additional robotics, autonomy, control, perception, and software
+            projects.
           </p>
 
 
@@ -783,14 +684,14 @@ const Index = () => {
 
 
 
-              {/* NMPC + HOCBF */}
+              {/* HOCBF / NMPC */}
               <CarouselItem className="basis-full md:basis-1/2">
 
                 <div className="p-1">
 
                   <ProjectCard
                     title="Probabilistic NMPC + HOCBF for Quadrotor Collision Avoidance"
-                    description="Research project investigating probabilistic collision avoidance for quadrotors through the combination of nonlinear model predictive control and higher-order control barrier functions."
+                    description="Research project investigating probabilistic collision avoidance for quadrotors through nonlinear model predictive control and higher-order control barrier functions."
                     tech={[
                       "Python",
                       "ROS 2",
@@ -836,14 +737,14 @@ const Index = () => {
 
 
 
-              {/* Taco Drone */}
+              {/* Taco Delivery */}
               <CarouselItem className="basis-full md:basis-1/2">
 
                 <div className="p-1">
 
                   <ProjectCard
                     title="Taco Delivery Drone"
-                    description="Computer-vision project for learning autonomous UAV precision landing in simulation, developed around a playful taco-delivery scenario."
+                    description="Computer-vision project for learning autonomous UAV precision landing in simulation through a taco-delivery scenario."
                     tech={[
                       "Python",
                       "ROS",
@@ -912,7 +813,6 @@ const Index = () => {
           </h2>
 
 
-          {/* Main tools */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
 
             <ToolCard
@@ -954,7 +854,6 @@ const Index = () => {
           </div>
 
 
-          {/* Additional tools */}
           <div className="terminal-border bg-card/50 p-6 rounded">
 
             <h3 className="text-lg font-semibold text-primary mb-3">
@@ -987,12 +886,14 @@ const Index = () => {
                 "MySQL",
                 "SQLite",
               ].map((skill) => (
+
                 <span
                   key={skill}
                   className="text-xs px-3 py-1 bg-secondary text-foreground rounded border border-border hover:border-primary transition-colors"
                 >
                   {skill}
                 </span>
+
               ))}
 
             </div>
@@ -1088,7 +989,10 @@ const Index = () => {
                 </div>
 
                 <div>
-                  <p className="font-semibold">Email</p>
+                  <p className="font-semibold">
+                    Email
+                  </p>
+
                   <p className="text-sm text-muted-foreground">
                     mbflores3@uc.cl
                   </p>
@@ -1110,7 +1014,10 @@ const Index = () => {
                 </div>
 
                 <div>
-                  <p className="font-semibold">GitHub</p>
+                  <p className="font-semibold">
+                    GitHub
+                  </p>
+
                   <p className="text-sm text-muted-foreground">
                     @mbflores3
                   </p>
@@ -1132,7 +1039,10 @@ const Index = () => {
                 </div>
 
                 <div>
-                  <p className="font-semibold">LinkedIn</p>
+                  <p className="font-semibold">
+                    LinkedIn
+                  </p>
+
                   <p className="text-sm text-muted-foreground">
                     Mario Flores Musso
                   </p>
@@ -1147,9 +1057,11 @@ const Index = () => {
 
           {/* Footer */}
           <div className="text-center text-sm text-muted-foreground">
+
             <p>
               &copy; 2026 Mario Flores. Built with React + Vite + Tailwind CSS.
             </p>
+
           </div>
 
         </section>
