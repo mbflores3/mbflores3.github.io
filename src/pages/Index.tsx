@@ -121,8 +121,8 @@ const featuredWork = [
     title: "Autonomous Vehicle Research",
     organization: "Universidad Adolfo Ibáñez",
     description:
-      "Research focused on autonomous vehicle systems, integrating robotics, perception, control, and autonomous navigation for intelligent ground vehicles.",
-    tech: ["Autonomous Vehicles", "ROS 2", "Perception", "Control"],
+      "Research on autonomous vehicle software architectures and visual programming through L.A.D., a ROS 2 and Nav2 platform for learning, prototyping, and reproducing autonomous vehicle systems.",
+    tech: ["ROS 2", "Nav2", "React", "Autonomous Vehicles"],
     image: "/images/projects/uai/uai-hero.jpg",
     url: "/projects/uai",
   },
