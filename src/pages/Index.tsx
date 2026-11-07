@@ -135,7 +135,7 @@ const featuredWork = [
     description:
       "Designed custom electronic systems and PCBs from customer requirements through schematic design, PCB routing, communication interfaces, manufacturing verification, and production release.",
     tech: ["Altium", "PCB Design", "RS-485", "Ethernet"],
-    image: "/images/projects/xautomation/pcb-hero.jpg",
+    image: "/images/pcb-hero3.jpeg",
     url: "/projects/xautomation",
   },
 
