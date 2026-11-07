@@ -62,13 +62,13 @@ const Index = () => {
           
           <div className="terminal-border bg-card/50 p-8 rounded mb-6">
             <p className="text-foreground leading-relaxed mb-4">
-              I'm an engineer passionate about robotics and autonomous systems, particularly in technologies that enable machines to operate in complex real-world environments.
-              My background spans both hardware and software: from embedded systems and electronics design to robotics navigation, perception, and machine learning.
+              I’m a Robotics Engineer focused on autonomous systems for complex and uncertain real-world environments.
+              My experience spans aerial, terrestrial, surface, and underwater robotics, with work ranging from autonomous navigation, perception, and control to embedded electronics, sensor integration, and robotic system deployment.
             </p>
             
             <p className="text-muted-foreground leading-relaxed">
-              I truly enjoy solving problems and addressing real needs through hardware technical knowledge and coding.
-              I'm dedicated, proactive, and always motivated to keep learning and contributing to new challenges where I can make a meaningful impact.
+              I enjoy working across the full robotics stack—connecting hardware, sensing, software, and autonomy to transform research ideas into systems that can operate reliably outside the laboratory. 
+              My interests particularly lie in robust autonomy, navigation under uncertainty, multi-platform robotic systems, and field robotics.
             </p>
           </div>
 
