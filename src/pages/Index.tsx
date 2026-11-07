@@ -147,7 +147,7 @@ const featuredWork = [
     description:
       "Development of aerial, surface, and underwater robotic systems for the international Maritime RobotX competition, including UAV precision landing and BlueROV motion control.",
     tech: ["ROS", "OpenCV", "UAV", "BlueROV"],
-    image: "/images/mariscope-hero.jpeg",
+    image: "/images/Caleuche1.png",
     url: "/projects/robotx",
   },
 
