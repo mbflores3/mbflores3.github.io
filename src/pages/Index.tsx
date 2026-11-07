@@ -87,7 +87,7 @@ const featuredWork = [
     description:
       "Development of autonomous and semi-autonomous robotic systems for open-pit and underground explosive-loading operations, including navigation, sensing, industrial communications, and field deployment.",
     tech: ["ROS", "GNSS", "LiDAR", "PLC"],
-    image: "/images/projects/enaex/enaex-hero.jpg",
+    image: "/images/enaex-hero.jpeg",
     url: "/projects/enaexrobotics",
   },
 
