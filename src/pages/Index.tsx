@@ -159,7 +159,7 @@ const featuredWork = [
     description:
       "Maintenance, troubleshooting, and field deployment of tethered ROV systems for structural underwater inspections across the Strait of Magellan and Patagonian fjords.",
     tech: ["ROV", "RS-485", "Electronics", "Field Operations"],
-    image: "/images/projects/mariscope/mariscope-hero.jpg",
+    image: "/images/mariscope-hero.jpeg",
     url: "/projects/mariscope",
   },
 
