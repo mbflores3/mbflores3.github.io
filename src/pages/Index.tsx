@@ -504,6 +504,119 @@ const Index = () => {
         </div>
 
         {/* ==================================================
+            OTHER PROJECTS
+        ================================================== */}
+
+        <section
+          id="portfolio"
+          className="py-12 section-fade-in"
+        >
+
+          <h2 className="text-4xl font-bold mb-3 text-foreground">
+            <span className="text-accent">//</span> Other Projects
+          </h2>
+
+          <p className="text-muted-foreground mb-8">
+            Additional robotics, autonomy, control, perception, and software
+            projects.
+          </p>
+
+
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+
+            <CarouselContent>
+
+
+              {/* Wall2 */}
+              <CarouselItem className="basis-full md:basis-1/2">
+
+                <div className="p-1">
+
+                  <ProjectCard
+                    title="Wall2 - Face Mask Collector Robot"
+                    description="Autonomous robot developed to collect discarded face masks around the university campus following pandemic restrictions."
+                    tech={[
+                      "Python",
+                      "Arduino",
+                      "PID",
+                      "OpenCV",
+                      "Fusion 360",
+                      "ML",
+                      "KiCad",
+                    ]}
+                    github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
+                    image="/images/Wall2Construction.jpeg"
+                  />
+
+                </div>
+
+              </CarouselItem>
+
+              {/* Collision Detector */}
+              <CarouselItem className="basis-full md:basis-1/2">
+
+                <div className="p-1">
+
+                  <ProjectCard
+                    title="Collision Detector"
+                    description="Collision detection for an agricultural robot using XGBoost and ROS 2."
+                    tech={[
+                      "Python",
+                      "Pandas",
+                      "NumPy",
+                      "Scikit-learn",
+                      "ROS 2",
+                      "XGBoost",
+                    ]}
+                    github="https://github.com/mbflores3/Colission-detection"
+                    image="/images/CollisionDetection.png"
+                  />
+
+                </div>
+
+              </CarouselItem>
+
+              {/* Taco Delivery */}
+              <CarouselItem className="basis-full md:basis-1/2">
+
+                <div className="p-1">
+
+                  <ProjectCard
+                    title="Taco Delivery Drone"
+                    description="Computer-vision project for learning autonomous UAV precision landing in simulation through a taco-delivery scenario."
+                    tech={[
+                      "Python",
+                      "ROS",
+                      "Gazebo",
+                      "MAVLink",
+                      "OpenCV",
+                      "Image Processing",
+                    ]}
+                    github="https://github.com/mbflores3"
+                    image="/images/TacoDeliveryDrone.png"
+                  />
+
+                </div>
+
+              </CarouselItem>
+
+            </CarouselContent>
+
+            <CarouselPrevious />
+            <CarouselNext />
+            <CarouselDots />
+
+          </Carousel>
+
+        </section>
+
+        {/* ==================================================
             STUDIES
         ================================================== */}
 
@@ -647,179 +760,6 @@ const Index = () => {
           </div>
 
         </section>
-
-
-
-        {/* ==================================================
-            OTHER PROJECTS
-        ================================================== */}
-
-        <section
-          id="portfolio"
-          className="py-12 section-fade-in"
-        >
-
-          <h2 className="text-4xl font-bold mb-3 text-foreground">
-            <span className="text-accent">//</span> Other Projects
-          </h2>
-
-          <p className="text-muted-foreground mb-8">
-            Additional robotics, autonomy, control, perception, and software
-            projects.
-          </p>
-
-
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-
-            <CarouselContent>
-
-
-              {/* Wall2 */}
-              <CarouselItem className="basis-full md:basis-1/2">
-
-                <div className="p-1">
-
-                  <ProjectCard
-                    title="Wall2 - Face Mask Collector Robot"
-                    description="Autonomous robot developed to collect discarded face masks around the university campus following pandemic restrictions."
-                    tech={[
-                      "Python",
-                      "Arduino",
-                      "PID",
-                      "OpenCV",
-                      "Fusion 360",
-                      "ML",
-                      "KiCad",
-                    ]}
-                    github="https://github.com/mbflores3/Wall2---Face-Mask-Collector"
-                    image="/images/Wall2Construction.jpeg"
-                  />
-
-                </div>
-
-              </CarouselItem>
-
-
-
-              {/* HOCBF / NMPC */}
-              <CarouselItem className="basis-full md:basis-1/2">
-
-                <div className="p-1">
-
-                  <ProjectCard
-                    title="Probabilistic NMPC + HOCBF for Quadrotor Collision Avoidance"
-                    description="Research project investigating probabilistic collision avoidance for quadrotors through nonlinear model predictive control and higher-order control barrier functions."
-                    tech={[
-                      "Python",
-                      "ROS 2",
-                      "PX4",
-                      "Docker",
-                      "Gazebo",
-                      "NMPC",
-                      "HOCBF",
-                    ]}
-                    github="https://github.com/mbflores3"
-                    image="/images/CollisionAvoidance.png"
-                  />
-
-                </div>
-
-              </CarouselItem>
-
-
-
-              {/* LAD */}
-              <CarouselItem className="basis-full md:basis-1/2">
-
-                <div className="p-1">
-
-                  <ProjectCard
-                    title="L.A.D. — Learning Autonomous Vehicles"
-                    description="Visual programming and educational platform for building and learning ROS 2 autonomous vehicle systems through reusable block-based robotics components."
-                    tech={[
-                      "ROS 2",
-                      "React",
-                      "TypeScript",
-                      "JavaScript",
-                      "Nav2",
-                      "PID",
-                    ]}
-                    github="https://github.com/mbflores3"
-                    image="/images/simLAD.png"
-                  />
-
-                </div>
-
-              </CarouselItem>
-
-
-
-              {/* Taco Delivery */}
-              <CarouselItem className="basis-full md:basis-1/2">
-
-                <div className="p-1">
-
-                  <ProjectCard
-                    title="Taco Delivery Drone"
-                    description="Computer-vision project for learning autonomous UAV precision landing in simulation through a taco-delivery scenario."
-                    tech={[
-                      "Python",
-                      "ROS",
-                      "Gazebo",
-                      "MAVLink",
-                      "OpenCV",
-                      "Image Processing",
-                    ]}
-                    github="https://github.com/mbflores3"
-                    image="/images/TacoDeliveryDrone.png"
-                  />
-
-                </div>
-
-              </CarouselItem>
-
-
-
-              {/* Collision Detector */}
-              <CarouselItem className="basis-full md:basis-1/2">
-
-                <div className="p-1">
-
-                  <ProjectCard
-                    title="Collision Detector"
-                    description="Collision detection for an agricultural robot using XGBoost and ROS 2."
-                    tech={[
-                      "Python",
-                      "Pandas",
-                      "NumPy",
-                      "Scikit-learn",
-                      "ROS 2",
-                      "XGBoost",
-                    ]}
-                    github="https://github.com/mbflores3/Colission-detection"
-                    image="/images/CollisionDetection.png"
-                  />
-
-                </div>
-
-              </CarouselItem>
-
-            </CarouselContent>
-
-            <CarouselPrevious />
-            <CarouselNext />
-            <CarouselDots />
-
-          </Carousel>
-
-        </section>
-
 
 
         {/* ==================================================
