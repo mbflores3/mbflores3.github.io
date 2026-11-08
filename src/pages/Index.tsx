@@ -123,7 +123,7 @@ const featuredWork = [
     description:
       "Research on autonomous vehicle software architectures and visual programming through L.A.D., a ROS 2 and Nav2 platform for learning, prototyping, and reproducing autonomous vehicle systems.",
     tech: ["ROS 2", "Nav2", "React", "Autonomous Vehicles"],
-    image: "/images/projects/uai/uai-hero.jpg",
+    image: "/images/SimLAD.png",
     url: "/projects/uai",
   },
 
