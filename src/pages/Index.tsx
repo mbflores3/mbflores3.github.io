@@ -99,7 +99,7 @@ const featuredWork = [
     description:
       "Development of a LiDAR-equipped UAV research platform and ROS 2/Gazebo simulation for learning- and model-based autonomous navigation under uncertain environments.",
     tech: ["ROS 2", "PX4", "LiDAR", "NMPC"],
-    image: "/images/projects/spae/spae-hero.jpg",
+    image: "/images/spae-hero.jpg",
     url: "/projects/spaegroup",
   },
 
@@ -111,7 +111,7 @@ const featuredWork = [
     description:
       "Research on tree crown detection and instance segmentation from UAV imagery through dataset creation, pretrained-model benchmarking, fine-tuning, and synthetic-label training.",
     tech: ["Python", "PyTorch", "UAV Imagery", "QGIS"],
-    image: "/images/projects/tarlab/tarlab-hero.jpg",
+    image: "/images/TarLab-Hero.png",
     url: "/projects/tarlab",
   },
 
