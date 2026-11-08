@@ -171,7 +171,7 @@ const featuredWork = [
     description:
       "Undergraduate research with Prof. Giancarlo Troni on autonomous UAV precision landing using Python, ROS, OpenCV, and a custom-built multirotor platform.",
     tech: ["Python", "ROS", "OpenCV", "UAV"],
-    image: "/images/opencv-landing.png",
+    image: "/images/opencv-landing2.png",
     url: "/projects/robotx",
   },
 ];
