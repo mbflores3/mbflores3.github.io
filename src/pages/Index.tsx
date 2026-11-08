@@ -564,19 +564,19 @@ const Index = () => {
               <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
 
                 <li>
+                  Explosives Handler Certification — General Directorate of National Mobilization
+                </li>
+
+                <li>
+                  RPA Operator — Chilean Civil Aviation Authority
+                </li>
+
+                <li>
                   Heavy Machinery Operator — National Traffic Authority
                 </li>
 
                 <li>
                   Core Basics — Universal Robots
-                </li>
-
-                <li>
-                  Explosives Handler Certification
-                </li>
-
-                <li>
-                  RPA Operator — Chilean Civil Aviation Authority
                 </li>
 
               </ul>
@@ -610,15 +610,15 @@ const Index = () => {
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
 
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Mobile Robotics IIC2685
+                Mobile Robotics
               </h3>
 
               <p className="text-muted-foreground mb-3">
-                Pontifical Catholic University of Chile | 2022
+                Independent Tutor | 2022
               </p>
 
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Introduced students to ROS/ROS 2 publisher-subscriber
+                Introduced 8 students to ROS/ROS 2 publisher-subscriber
                 communication through topics, as well as fundamental
                 navigation, perception, and localization techniques.
               </p>
@@ -630,18 +630,16 @@ const Index = () => {
             <div className="terminal-border bg-card p-6 rounded hover:glow-primary transition-all duration-300">
 
               <h3 className="text-xl font-semibold text-primary mb-2">
-                Automatic Control IEE2613
+                Automatic Control 
               </h3>
 
               <p className="text-muted-foreground mb-3">
-                Pontifical Catholic University of Chile | 2023
+                Independent Tutor | 2023
               </p>
 
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Supported evaluation and grading of assignments, exams, and
-                projects covering closed-loop control methods including PID,
-                root locus, Nyquist analysis, Bode plots, and stability
-                criteria.
+                I taught 5 students closed-loop control methods, including PID, root locus, Nyquist analysis, Bode plots, and stability criteria. 
+                I also provided support for the development of projects and assignments related to the course.
               </p>
 
             </div>
