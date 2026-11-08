@@ -140,7 +140,7 @@ const featuredWork = [
   },
 
   {
-    period: "2022 · 2026",
+    period: "2022 · 2024 · 2026",
     category: "MULTI-PLATFORM ROBOTICS",
     title: "Maritime RobotX",
     organization: "Team Caleuche UC",
@@ -171,7 +171,7 @@ const featuredWork = [
     description:
       "Undergraduate research with Prof. Giancarlo Troni on autonomous UAV precision landing using Python, ROS, OpenCV, and a custom-built multirotor platform.",
     tech: ["Python", "ROS", "OpenCV", "UAV"],
-    image: "/images/projects/robotx/research-uav.jpg",
+    image: "/images/TacoDeliveryDrone.png",
     url: "/projects/robotx",
   },
 ];
