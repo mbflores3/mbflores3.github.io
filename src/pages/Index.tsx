@@ -111,7 +111,7 @@ const featuredWork = [
     description:
       "Research on tree crown detection and instance segmentation from UAV imagery through dataset creation, pretrained-model benchmarking, fine-tuning, and synthetic-label training.",
     tech: ["Python", "PyTorch", "UAV Imagery", "QGIS"],
-    image: "/images/TarLab-Hero3.png",
+    image: "/images/TarLab-Hero2.png",
     url: "/projects/tarlab",
   },
 
