@@ -99,7 +99,7 @@ const featuredWork = [
     description:
       "Development of a LiDAR-equipped UAV research platform and ROS 2/Gazebo simulation for learning- and model-based autonomous navigation under uncertain environments.",
     tech: ["ROS 2", "PX4", "LiDAR", "NMPC"],
-    image: "/images/spae-hero.jpg",
+    image: "/images/spaegrou-hero.png",
     url: "/projects/spaegroup",
   },
 
