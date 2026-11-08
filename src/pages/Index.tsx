@@ -508,7 +508,7 @@ const Index = () => {
         ================================================== */}
 
         <section
-          id="portfolio"
+          id="other projects"
           className="py-12 section-fade-in"
         >
 
