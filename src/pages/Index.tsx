@@ -119,7 +119,7 @@ const featuredWork = [
     period: "2026 — Present",
     category: "AUTONOMOUS VEHICLES · RESEARCH",
     title: "Autonomous Vehicle Research",
-    organization: "Universidad Adolfo Ibáñez",
+    organization: "Adolfo Ibañez University",
     description:
       "Research on autonomous vehicle software architectures and visual programming through L.A.D., a ROS 2 and Nav2 platform for learning, prototyping, and reproducing autonomous vehicle systems.",
     tech: ["ROS 2", "Nav2", "React", "Autonomous Vehicles"],
@@ -167,7 +167,7 @@ const featuredWork = [
     period: "2021 — 2022",
     category: "UNDERGRADUATE RESEARCH · UAV",
     title: "Vision-Based UAV Precision Landing",
-    organization: "Pontifical Catholic University of Chile",
+    organization: "Compass Lab",
     description:
       "Undergraduate research with Prof. Giancarlo Troni on autonomous UAV precision landing using Python, ROS, OpenCV, and a custom-built multirotor platform.",
     tech: ["Python", "ROS", "OpenCV", "UAV"],
