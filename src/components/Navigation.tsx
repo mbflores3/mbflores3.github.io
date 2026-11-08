@@ -4,12 +4,12 @@ import useTheme from '../hooks/useTheme';
 
 const navItems = [
   { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'studies', label: 'Studies' },
-  { id: 'tools', label: 'Tools' },
-  { id: 'portfolio', label: 'Portfolio' },
+  { id: 'featured-work', label: 'Experience' },
   { id: 'publications', label: 'Publications' },
+  { id: 'other projects', label: 'Other Projects' },
+  { id: 'studies', label: 'Studies' },
   { id: 'teaching', label: 'Teaching' },
+  { id: 'tools', label: 'Tools' },
   { id: 'sports', label: 'Sports' },
   { id: 'contact', label: 'Contact' },
 ];
