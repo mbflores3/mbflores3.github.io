@@ -441,7 +441,7 @@ const Index = () => {
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <FileText size={16} />
-                <span>Research publication</span>
+                <span>Under submission</span>
               </div>
 
             </div>
@@ -467,7 +467,7 @@ const Index = () => {
 
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <FileText size={16} />
-                <span>Research publication</span>
+                <span>Under submission</span>
               </div>
 
             </div>
@@ -498,7 +498,7 @@ const Index = () => {
         
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <FileText size={16} />
-            <span>Research publication</span>
+            <span>Under submission</span>
           </div>
         
         </div>
